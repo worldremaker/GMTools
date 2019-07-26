@@ -1,0 +1,92 @@
+;;
+;;Standard devmenu
+;;
+ONGROUND;GM Events - Multi Exp GLOBAL 24h;internal menu
+SUBMENU;x2;command setgmevent multiexp 1440 2
+SUBMENU;x3;command setgmevent multiexp 1440 3
+SUBMENU;x4;command setgmevent multiexp 1440 4
+SUBMENU;x5;command setgmevent multiexp 1440 5
+SUBMENU;x6;command setgmevent multiexp 1440 6
+SUBMENU;x7;command setgmevent multiexp 1440 7
+SUBMENU;x8;command setgmevent multiexp 1440 8
+SUBMENU;x9;command setgmevent multiexp 1440 9
+SUBMENU;x10;command setgmevent multiexp 1440 10
+
+ONGROUND;GM Events - Multi Exp GLOBAL 48h;internal menu
+SUBMENU;x2;command setgmevent multiexp 2880 2
+SUBMENU;x3;command setgmevent multiexp 2880 3
+SUBMENU;x4;command setgmevent multiexp 2880 4
+SUBMENU;x5;command setgmevent multiexp 2880 5
+SUBMENU;x6;command setgmevent multiexp 2880 6
+SUBMENU;x7;command setgmevent multiexp 2880 7
+SUBMENU;x8;command setgmevent multiexp 2880 8
+SUBMENU;x9;command setgmevent multiexp 2880 9
+SUBMENU;x10;command setgmevent multiexp 2880 10
+
+
+ONGROUND;GM Events - Multi Exp KILLING 24h;internal menu
+SUBMENU;x2;command setgmevent multiexpkill 1440 2
+SUBMENU;x3;command setgmevent multiexpkill 1440 3
+SUBMENU;x4;command setgmevent multiexpkill 1440 4
+SUBMENU;x5;command setgmevent multiexpkill 1440 5
+SUBMENU;x6;command setgmevent multiexpkill 1440 6
+SUBMENU;x7;command setgmevent multiexpkill 1440 7
+SUBMENU;x8;command setgmevent multiexpkill 1440 8
+SUBMENU;x9;command setgmevent multiexpkill 1440 9
+SUBMENU;x10;command setgmevent multiexpkill 1440 10
+
+ONGROUND;GM Events - Multi Exp KILLING 48h;internal menu
+SUBMENU;x2;command setgmevent multiexpkill 2880 2
+SUBMENU;x3;command setgmevent multiexpkill 2880 3
+SUBMENU;x4;command setgmevent multiexpkill 2880 4
+SUBMENU;x5;command setgmevent multiexpkill 2880 5
+SUBMENU;x6;command setgmevent multiexpkill 2880 6
+SUBMENU;x7;command setgmevent multiexpkill 2880 7
+SUBMENU;x8;command setgmevent multiexpkill 2880 8
+SUBMENU;x9;command setgmevent multiexpkill 2880 9
+SUBMENU;x10;command setgmevent multiexpkill 2880 10
+
+ONGROUND;GM Events - Multi Exp CARAVANS 24h;internal menu
+SUBMENU;x2;command setgmevent multiexpcaravans 1440 2
+SUBMENU;x3;command setgmevent multiexpcaravans 1440 3
+SUBMENU;x4;command setgmevent multiexpcaravans 1440 4
+SUBMENU;x5;command setgmevent multiexpcaravans 1440 5
+SUBMENU;x6;command setgmevent multiexpcaravans 1440 6
+SUBMENU;x7;command setgmevent multiexpcaravans 1440 7
+SUBMENU;x8;command setgmevent multiexpcaravans 1440 8
+SUBMENU;x9;command setgmevent multiexpcaravans 1440 9
+SUBMENU;x10;command setgmevent multiexpcaravans 1440 10
+
+ONGROUND;GM Events - Multi Exp CARAVANS 48h;internal menu
+SUBMENU;x2;command setgmevent multiexpcaravans 2880 2
+SUBMENU;x3;command setgmevent multiexpcaravans 2880 3
+SUBMENU;x4;command setgmevent multiexpcaravans 2880 4
+SUBMENU;x5;command setgmevent multiexpcaravans 2880 5
+SUBMENU;x6;command setgmevent multiexpcaravans 2880 6
+SUBMENU;x7;command setgmevent multiexpcaravans 2880 7
+SUBMENU;x8;command setgmevent multiexpcaravans 2880 8
+SUBMENU;x9;command setgmevent multiexpcaravans 2880 9
+SUBMENU;x10;command setgmevent multiexpcaravans 2880 10
+
+ONGROUND;Spawn NPC;internal menu
+
+SUBMENU;Altruist;command addnpc 475 -d 10802 -x $[HexX] -y $[HexY] -dir 0 -b 218 -l 50
+SUBMENU;Dr Fung;command addnpc 297 -d 1405 -x $[HexX] -y $[HexY] -dir 3
+SUBMENU;Marshal;command addnpc 369 -d 9438 -x $[HexX] -y $[HexY] -dir 3 -l 50
+
+ONGROUND,NOHIDE;Lady M event AddNPCs;internal menu
+SUBMENU;NCR Ranger MALE Pancor NW;command addnpc 475 -x $[HexX] -y $[HexY] -dir 5 -b 218 -l 50
+SUBMENU;NCR Ranger FEMALE Pancor NW;command addnpc 476 -x $[HexX] -y $[HexY] -dir 5 -b 218 -l 50
+SUBMENU;NCR Soldier MALE Pancor NW;command addnpc 518 -x $[HexX] -y $[HexY] -dir 5 -b 218 -l 50
+SUBMENU;NCR Soldier FEMALE Pancor NW;command addnpc 519 -x $[hexX] -y $[HexY] -dir 5 -b 218 -l 50
+
+ONGROUND,NOHIDE;Lady M event Teleports;internal menu
+SUBMENU;Summon worldremaker;command summon -p worldremaker
+SUBMENU;TeamTeleport V12-1 winda;command teleportteam 97 1
+SUBMENU;TeamTeleport V12-2 winda;command teleportteam 98 1
+SUBMENU;Mariposa - wyjscie z bazy;command teleportteam 55 1
+SUBMENU;Mariposa - 1 winda;command teleportteam 56 1
+SUBMENU;Mariposa - 2 winda;command teleportteam 57 1
+SUBMENU;Mariposa - 3 winda;command teleportteam 58 1
+SUBMENU;Mariposa - 3 winda na 4;command teleportteam 58 2
+SUBMENU;Mariposa - 4;command teleportteam 56 1

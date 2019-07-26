@@ -1,0 +1,100 @@
+;;
+;;Standard devmenu
+;;
+ONGROUND;Spawn Books;internal menu
+
+SUBMENU;Small Guns;command spawnitem 102 1000 -x $[HexX] -y $[HexY]
+SUBMENU;First Aid;command spawnitem 80 1000 -x $[HexX] -y $[HexY]
+SUBMENU;Repair;command spawnitem 76 1000 -x $[HexX] -y $[HexY]
+SUBMENU;Science;command spawnitem 73 1000 -x $[HexX] -y $[HexY]
+SUBMENU;Barter;command spawnitem 22050 1000 -x $[HexX] -y $[HexY]
+SUBMENU;Outdoorsman;command spawnitem 86 1000 -x $[HexX] -y $[HexY]
+
+ONGROUND;Spawn Implants;internal menu
+
+SUBMENU;ST;command spawnitem 22054 100 -x $[HexX] -y $[HexY]
+SUBMENU;PE;command spawnitem 22055 100 -x $[HexX] -y $[HexY]
+SUBMENU;EN;command spawnitem 22056 100 -x $[HexX] -y $[HexY]
+SUBMENU;CH;command spawnitem 22057 100 -x $[HexX] -y $[HexY]
+SUBMENU;IN;command spawnitem 22058 100 -x $[HexX] -y $[HexY]
+SUBMENU;AG;command spawnitem 22059 100 -x $[HexX] -y $[HexY]
+SUBMENU;LK;command spawnitem 22060 100 -x $[HexX] -y $[HexY]
+SUBMENU;Dermal;command spawnitem 22051 100 -x $[HexX] -y $[HexY]
+SUBMENU;Nemean;command spawnitem 22053 100 -x $[HexX] -y $[HexY]
+SUBMENU;Phoenix;command spawnitem 22052 100 -x $[HexX] -y $[HexY]
+SUBMENU;Combat Armor 13pcs;command give 17 13 -legit
+
+ONCHOSEN,NOHIDE;Give Drugs;internal menu
+
+SUBMENU,NOHIDE;Buffout;command give 87 1 -legit
+SUBMENU,NOHIDE;Psycho;command give 110 1 -legit
+SUBMENU,NOHIDE;Beer;command give 124 1 -legit
+SUBMENU,NOHIDE;Cigs;command give 541 1 -legit
+SUBMENU,NOHIDE;Jet;command give 259 1 -legit
+SUBMENU,NOHIDE;Nuka Cola;command give 106 1 -legit
+SUBMENU,NOHIDE;Zippo Lighter;command give 101 1 -legit
+
+ONCHOSEN,ONPLAYER,NOHIDE;Armors;internal menu
+
+SUBMENU,NOHIDE;Armor Combat Helmet MKII;command give 726 1 -legit
+SUBMENU,NOHIDE;Armor Combat Armor MKII;command give 381 1 -legit
+
+SUBMENU,NOHIDE;Armor NCR Helmet;command give 741 1 -legit
+SUBMENU,NOHIDE;Armor NCR Armor;command give 9654 1 -legit
+
+SUBMENU,NOHIDE,NOHIDE;Armor Enclave Helmet;command give 738 1 -legit
+SUBMENU,NOHIDE;Armor Enclave Helmet MKII;command give 739 1 -legit
+SUBMENU,NOHIDE;Armor Enclave Armor;command give 752 1 -legit
+
+SUBMENU,NOHIDE;Armor Adv. Power Helmet;command give 735 1 -legit
+SUBMENU,NOHIDE;Armor Adv. Power Armor;command give 348 1 -legit
+
+SUBMENU,NOHIDE;Armor Adv. Power Helmet MKII;command give 736 1 -legit
+SUBMENU,NOHIDE;Armor Adv. Power Armor MKII;command give 349 1 -legit
+
+ONCHOSEN,ONPLAYER,NOHIDE;SG Weaponry;internal menu
+SUBMENU,NOHIDE;Weapon SG Sniper Rifle;command give 143 1 -legit
+SUBMENU,NOHIDE;Weapon SG Gauss Rifle;command give 392 1 -legit
+SUBMENU,NOHIDE;Weapon SG Gauss Pistol;command give 394 1 -legit
+SUBMENU,NOHIDE;Weapon SG Pancor;command give 354 1 -legit
+SUBMENU,NOHIDE;Weapon SG XL;command give 353 1 -legit
+SUBMENU,NOHIDE;Weapon SG 223 pistol;command give 241 1 -legit
+
+ONCHOSEN,ONPLAYER,NOHIDE;BG Weaponry;internal menu
+SUBMENU,NOHIDE;Weapon BG LSW;command give 355 1 -legit
+SUBMENU,NOHIDE;Weapon BG Avenger;command give 389 1 -legit
+SUBMENU,NOHIDE;Weapon BG Bozar;command give 350 1 -legit
+SUBMENU,NOHIDE;Weapon BG RL;command give 13 1 -legit
+SUBMENU,NOHIDE;Weapon BG Vindi;command give 395 1 -legit
+
+ONCHOSEN,ONPLAYER,NOHIDE;EW Weaponry;internal menu
+SUBMENU,NOHIDE;Weapon EW Gatling;command give 28 1 -legit
+SUBMENU,NOHIDE;Weapon EW Plasma Pistol 2;command give 406 1 -legit
+SUBMENU,NOHIDE;Weapon EW Plasma Rifle;command give 15 1 -legit
+SUBMENU,NOHIDE;Weapon EW T.Plasma Rifle;command give 233 1 -legit
+SUBMENU,NOHIDE;Weapon EW Laser Rifle Ext;command give 401 1 -legit
+SUBMENU,NOHIDE;Weapon EW Pulse Pistol;command give 396 1 -legit
+SUBMENU,NOHIDE;Weapon EW Pulse Rifle;command give 397 1 -legit
+
+ONCHOSEN,ONPLAYER,NOHIDE;CC Weaponry;internal menu
+SUBMENU,NOHIDE;Weapon CC SuperSledge;command give 115 1 -legit
+SUBMENU,NOHIDE;Weapon CC M.PowerFist;command give 407 1 -legit
+
+ONCHOSEN,ONPLAYER,NOHIDE;Ammo;internal menu
+SUBMENU,NOHIDE;Ammo .223 x 1000;command give 34 1000 -legit
+SUBMENU,NOHIDE;Ammo 2mmEC x 100;command give 358 100 -legit
+SUBMENU,NOHIDE;Ammo SlugShells x 1000;command give 575 1000 -legit
+SUBMENU,NOHIDE;Ammo GeckoShells x 200;command give 850 200 -legit
+SUBMENU,NOHIDE;Ammo 5mmAP x 1000;command give 36 1000 -legit
+SUBMENU,NOHIDE;Ammo MFC x 500;command give 39 500 -legit
+SUBMENU,NOHIDE;Ammo SBC x 500;command give 38 500 -legit
+SUBMENU,NOHIDE;Ammo Caseless x 200;command give 359 200 -legit
+
+ONCHOSEN,ONPLAYER,NOHIDE;Drugs;internal menu
+SUBMENU,NOHIDE;Drugs - SuperStimpacks;command give 144 50 -legit
+SUBMENU,NOHIDE;Drugs - Hypos;command give 525 5 -legit
+
+ONCHOSEN,ONPLAYER,NOHIDE;Caps;internal menu
+SUBMENU,NOHIDE;10k;command give 41 10000 -legit
+SUBMENU,NOHIDE;100k;command give 41 100000 -legit
+SUBMENU,NOHIDE;1M;command give 41 1000000 -legit

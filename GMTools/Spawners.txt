@@ -1,0 +1,40 @@
+;;
+;;Standard devmenu
+;;
+
+ONGROUND;zmiana konfiga na test.txt;runscript_unsafe client_gmtools_menu@GMToolsLoadMenu test.txt
+
+
+ONGROUND;GM Spawners test;internal menu
+SUBMENU;Buffed Armors test;command spawnitem 63 1 -x $[HexX] -y $[HexY] -v4 108 -script item_spawner_container@item_init -legit
+SUBMENU;Buffed Small Guns;command spawnitem 63 1 -x $[HexX] -y $[HexY] -v4 104 -script item_spawner_container@item_init -legit
+SUBMENU;Buffed Big guns;command spawnitem 63 1 -x $[HexX] -y $[HexY] -v4 105 -script item_spawner_container@item_init -legit
+SUBMENU;Buffed Energy weapons;command spawnitem 63 1 -x $[HexX] -y $[HexY] -v4 106 -script item_spawner_container@item_init -legit
+
+ONGROUND;TEST Spawners NEW;internal menu
+SUBMENU;Test SG;command spawnitem 22262 1 -x $[HexX] -y $[HexY] -v4 232 -script item_spawner_container@item_init -legit
+SUBMENU;Test BG;command spawnitem 22567 1 -x $[HexX] -y $[HexY] -v4 233 -script item_spawner_container@item_init -legit
+SUBMENU;Test EW;command spawnitem 22568 1 -x $[HexX] -y $[HexY] -v4 234 -script item_spawner_container@item_init -legit
+SUBMENU;Test Ammo;command spawnitem 22914 1 -x $[HexX] -y $[HexY] -v4 235 -script item_spawner_container@item_init -legit
+SUBMENU;Test CC;command spawnitem 22831 1 -x $[HexX] -y $[HexY] -v4 236 -script item_spawner_container@item_init -legit
+SUBMENU;Test Armor;command spawnitem 22832 1 -x $[HexX] -y $[HexY] -v4 237 -script item_spawner_container@item_init -legit
+SUBMENU;Test MED;command spawnitem 25201 1 -x $[HexX] -y $[HexY] -v4 238 -script item_spawner_container@item_init -legit
+
+ONGROUND;GM BASE Spawners NEW;internal menu
+SUBMENU;BASE SG;command spawnitem 22139 1 -x $[HexX] -y $[HexY] -v4 174 -script item_spawner_container@item_init -legit
+SUBMENU;BASE BG;command spawnitem 22140 1 -x $[HexX] -y $[HexY] -v4 175 -script item_spawner_container@item_init -legit
+SUBMENU;BASE EW;command spawnitem 22142 1 -x $[HexX] -y $[HexY] -v4 176 -script item_spawner_container@item_init -legit
+SUBMENU;BASE Ammo;command spawnitem 22143 1 -x $[HexX] -y $[HexY] -v4 177 -script item_spawner_container@item_init -legit
+SUBMENU;BASE CC;command spawnitem 22144 1 -x $[HexX] -y $[HexY] -v4 178 -script item_spawner_container@item_init -legit
+SUBMENU;BASE Armor;command spawnitem 22145 1 -x $[HexX] -y $[HexY] -v4 179 -script item_spawner_container@item_init -legit
+SUBMENU;BASE SG Low;command spawnitem 22146 1 -x $[HexX] -y $[HexY] -v4 180 -script item_spawner_container@item_init -legit
+SUBMENU;BASE BG Low;command spawnitem 22147 1 -x $[HexX] -y $[HexY] -v4 181 -script item_spawner_container@item_init -legit
+SUBMENU;BASE EW Low;command spawnitem 22148 1 -x $[HexX] -y $[HexY] -v4 182 -script item_spawner_container@item_init -legit
+SUBMENU;BASE CC Low;command spawnitem 22149 1 -x $[HexX] -y $[HexY] -v4 183 -script item_spawner_container@item_init -legit
+SUBMENU;BASE Armor Low;command spawnitem 22150 1 -x $[HexX] -y $[HexY] -v4 184 -script item_spawner_container@item_init -legit
+SUBMENU;BASE SG Hi;command spawnitem 22422 1 -x $[HexX] -y $[HexY] -v4 185 -script item_spawner_container@item_init -legit
+SUBMENU;BASE BG Hi;command spawnitem 22447 1 -x $[HexX] -y $[HexY] -v4 186 -script item_spawner_container@item_init -legit
+SUBMENU;BASE EW Hi;command spawnitem 22565 1 -x $[HexX] -y $[HexY] -v4 187 -script item_spawner_container@item_init -legit
+SUBMENU;BASE CC Hi;command spawnitem 22568 1 -x $[HexX] -y $[HexY] -v4 188 -script item_spawner_container@item_init -legit
+SUBMENU;BASE Armor Hi;command spawnitem 22567 1 -x $[HexX] -y $[HexY] -v4 189 -script item_spawner_container@item_init -legit
+

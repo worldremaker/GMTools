@@ -1,0 +1,14 @@
+;;
+;;Standard devmenu
+;;
+ONGROUND;Spawn NPC;internal menu
+
+SUBMENU;Altruist;command addnpc 475 -d 10802 -x $[HexX] -y $[HexY] -dir 0 -b 218 -l 50
+SUBMENU;Dr Fung;command addnpc 297 -d 1405 -x $[HexX] -y $[HexY] -dir 3
+SUBMENU;Marshal;command addnpc 369 -d 9438 -x $[HexX] -y $[HexY] -dir 3 -l 50
+
+ONGROUND,NOHIDE;Lady M event AddNPCs;internal menu
+SUBMENU;NCR Ranger MALE Pancor NW;command addnpc 475 -x $[HexX] -y $[HexY] -dir 5 -b 218 -l 50
+SUBMENU;NCR Ranger FEMALE Pancor NW;command addnpc 476 -x $[HexX] -y $[HexY] -dir 5 -b 218 -l 50
+SUBMENU;NCR Soldier MALE Pancor NW;command addnpc 518 -x $[HexX] -y $[HexY] -dir 5 -b 218 -l 50
+SUBMENU;NCR Soldier FEMALE Pancor NW;command addnpc 519 -x $[hexX] -y $[HexY] -dir 5 -b 218 -l 50

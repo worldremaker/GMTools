@@ -1,0 +1,180 @@
+;;
+;;Standard devmenu
+;;
+
+ONITEM;Open-Close;runscript_unsafe dev_menu@unsafe_SwitchState $[Item.Id] 0 0
+ONGROUND;zmiana konfiga na test.txt;runscript_unsafe client_gmtools_menu@GMToolsLoadMenu test.txt
+
+ONGROUND;Spawn NPC;internal menu
+
+SUBMENU;Altruist;command addnpc 475 -d 10802 -x $[HexX] -y $[HexY] -s dialog_altruist@init_altruist -dir 0 -b 218 -l 50
+SUBMENU;Dr Fung;command addnpc 297 -d 1405 -x $[HexX] -y $[HexY] -dir 3
+SUBMENU;Marshal;command addnpc 369 -d 9438 -x $[HexX] -y $[HexY] -dir 3 -l 50
+
+ONGROUND;Spawn Books;internal menu
+
+SUBMENU;Small Guns;command spawnitem 102 1000 -x $[HexX] -y $[HexY]
+SUBMENU;First Aid;command spawnitem 80 1000 -x $[HexX] -y $[HexY]
+SUBMENU;Repair;command spawnitem 76 1000 -x $[HexX] -y $[HexY]
+SUBMENU;Science;command spawnitem 73 1000 -x $[HexX] -y $[HexY]
+SUBMENU;Barter;command spawnitem 22050 1000 -x $[HexX] -y $[HexY]
+SUBMENU;Outdoorsman;command spawnitem 86 1000 -x $[HexX] -y $[HexY]
+
+ONGROUND;GM Spawners test;internal menu
+SUBMENU;Buffed Armors test;command spawnitem 63 1 -x $[HexX] -y $[HexY] -v4 108 -script item_spawner_container@item_init -legit
+SUBMENU;Buffed Small Guns;command spawnitem 63 1 -x $[HexX] -y $[HexY] -v4 104 -script item_spawner_container@item_init -legit
+SUBMENU;Buffed Big guns;command spawnitem 63 1 -x $[HexX] -y $[HexY] -v4 105 -script item_spawner_container@item_init -legit
+SUBMENU;Buffed Energy weapons;command spawnitem 63 1 -x $[HexX] -y $[HexY] -v4 106 -script item_spawner_container@item_init -legit
+
+ONGROUND;TEST Spawners NEW;internal menu
+SUBMENU;Test SG;command spawnitem 22262 1 -x $[HexX] -y $[HexY] -v4 232 -script item_spawner_container@item_init -legit
+SUBMENU;Test BG;command spawnitem 22567 1 -x $[HexX] -y $[HexY] -v4 233 -script item_spawner_container@item_init -legit
+SUBMENU;Test EW;command spawnitem 22568 1 -x $[HexX] -y $[HexY] -v4 234 -script item_spawner_container@item_init -legit
+SUBMENU;Test Ammo;command spawnitem 22914 1 -x $[HexX] -y $[HexY] -v4 235 -script item_spawner_container@item_init -legit
+SUBMENU;Test CC;command spawnitem 22831 1 -x $[HexX] -y $[HexY] -v4 236 -script item_spawner_container@item_init -legit
+SUBMENU;Test Armor;command spawnitem 22832 1 -x $[HexX] -y $[HexY] -v4 237 -script item_spawner_container@item_init -legit
+SUBMENU;Test MED;command spawnitem 25201 1 -x $[HexX] -y $[HexY] -v4 238 -script item_spawner_container@item_init -legit
+
+ONGROUND;GM BASE Spawners NEW;internal menu
+SUBMENU;BASE SG;command spawnitem 22139 1 -x $[HexX] -y $[HexY] -v4 174 -script item_spawner_container@item_init -legit
+SUBMENU;BASE BG;command spawnitem 22140 1 -x $[HexX] -y $[HexY] -v4 175 -script item_spawner_container@item_init -legit
+SUBMENU;BASE EW;command spawnitem 22142 1 -x $[HexX] -y $[HexY] -v4 176 -script item_spawner_container@item_init -legit
+SUBMENU;BASE Ammo;command spawnitem 22143 1 -x $[HexX] -y $[HexY] -v4 177 -script item_spawner_container@item_init -legit
+SUBMENU;BASE CC;command spawnitem 22144 1 -x $[HexX] -y $[HexY] -v4 178 -script item_spawner_container@item_init -legit
+SUBMENU;BASE Armor;command spawnitem 22145 1 -x $[HexX] -y $[HexY] -v4 179 -script item_spawner_container@item_init -legit
+SUBMENU;BASE SG Low;command spawnitem 22146 1 -x $[HexX] -y $[HexY] -v4 180 -script item_spawner_container@item_init -legit
+SUBMENU;BASE BG Low;command spawnitem 22147 1 -x $[HexX] -y $[HexY] -v4 181 -script item_spawner_container@item_init -legit
+SUBMENU;BASE EW Low;command spawnitem 22148 1 -x $[HexX] -y $[HexY] -v4 182 -script item_spawner_container@item_init -legit
+SUBMENU;BASE CC Low;command spawnitem 22149 1 -x $[HexX] -y $[HexY] -v4 183 -script item_spawner_container@item_init -legit
+SUBMENU;BASE Armor Low;command spawnitem 22150 1 -x $[HexX] -y $[HexY] -v4 184 -script item_spawner_container@item_init -legit
+SUBMENU;BASE SG Hi;command spawnitem 22422 1 -x $[HexX] -y $[HexY] -v4 185 -script item_spawner_container@item_init -legit
+SUBMENU;BASE BG Hi;command spawnitem 22447 1 -x $[HexX] -y $[HexY] -v4 186 -script item_spawner_container@item_init -legit
+SUBMENU;BASE EW Hi;command spawnitem 22565 1 -x $[HexX] -y $[HexY] -v4 187 -script item_spawner_container@item_init -legit
+SUBMENU;BASE CC Hi;command spawnitem 22568 1 -x $[HexX] -y $[HexY] -v4 188 -script item_spawner_container@item_init -legit
+SUBMENU;BASE Armor Hi;command spawnitem 22567 1 -x $[HexX] -y $[HexY] -v4 189 -script item_spawner_container@item_init -legit
+
+ONGROUND;Spawn Implants;internal menu
+
+SUBMENU;ST;command spawnitem 22054 100 -x $[HexX] -y $[HexY]
+SUBMENU;PE;command spawnitem 22055 100 -x $[HexX] -y $[HexY]
+SUBMENU;EN;command spawnitem 22056 100 -x $[HexX] -y $[HexY]
+SUBMENU;CH;command spawnitem 22057 100 -x $[HexX] -y $[HexY]
+SUBMENU;IN;command spawnitem 22058 100 -x $[HexX] -y $[HexY]
+SUBMENU;AG;command spawnitem 22059 100 -x $[HexX] -y $[HexY]
+SUBMENU;LK;command spawnitem 22060 100 -x $[HexX] -y $[HexY]
+SUBMENU;Dermal;command spawnitem 22051 100 -x $[HexX] -y $[HexY]
+SUBMENU;Nemean;command spawnitem 22053 100 -x $[HexX] -y $[HexY]
+SUBMENU;Phoenix;command spawnitem 22052 100 -x $[HexX] -y $[HexY]
+SUBMENU;Combat Armor 13pcs;command give 17 13 -legit
+
+ONCHOSEN,NOHIDE;Give Drugs;internal menu
+
+SUBMENU,NOHIDE;Buffout;command give 87 1 -legit
+SUBMENU,NOHIDE;Psycho;command give 110 1 -legit
+SUBMENU,NOHIDE;Beer;command give 124 1 -legit
+SUBMENU,NOHIDE;Cigs;command give 541 1 -legit
+SUBMENU,NOHIDE;Jet;command give 259 1 -legit
+SUBMENU,NOHIDE;Nuka Cola;command give 106 1 -legit
+SUBMENU,NOHIDE;Zippo Lighter;command give 101 1 -legit
+
+ONPLAYER,ONNPC;Possess;internal possess
+ONPLAYER,ONNPC;Trade;runscript_unsafe dev_menu@unsafe_Trade $[Critter.Id] 0 0
+ONITEM,ISCONTAINER;Browse items;runscript_unsafe dev_menu@unsafe_Trade 0 $[Item.Id] 0
+ONPLAYER,ONNPC,ISALIVE;Kill;runscript_unsafe dev_menu@unsafe_KillCritter $[Critter.Id] 0 0
+ONPLAYER,ONNPC,ISKNOCK;Kill;runscript_unsafe dev_menu@unsafe_KillCritter $[Critter.Id] 0 0
+ONCHOSEN,ONPLAYER,ONNPC,ISDEAD;Revive;runscript_unsafe dev_menu@unsafe_KillCritter $[Critter.Id] 0 0
+ONNPC;Remove critter;runscript_unsafe dev_menu@unsafe_RemoveCritter $[Critter.Id] 0 0
+ONITEM;Remove item;runscript_unsafe dev_menu@unsafe_RemoveItem $[Item.Id] 0 0
+ONITEM,ONGROUND;Teleport;runscript_unsafe dev_menu@unsafe_Teleport 0 $[HexX] $[HexY]
+ONGROUND,NOHIDE;Airstrike;runscript dev_menu@Airstrike 0 $[HexX] $[HexY]
+ONITEM,ISPOSSESS;Pick item;runscript_unsafe dev_menu@unsafe_PickItem $[Possessed.Id] $[Item.Id] 0
+ONPLAYER,ONNPC,ISPOSSESS;Attack;runscript_unsafe dev_menu@unsafe_Attack $[Possessed.Id] $[Critter.Id] 0
+ONGROUND,ISPOSSESS;Move to;runscript_unsafe dev_menu@unsafe_MoveTo $[Possessed.Id] $[HexX] $[HexY]
+ISPOSSESS;Stop;runscript_unsafe dev_menu@unsafe_Stop $[Possessed.Id] 0 0
+ONCHOSEN,ONPLAYER,ONNPC,ISKNOCK;Wake;runscript_unsafe dev_menu@unsafe_NeutralizeCritter $[Critter.Id] 0 0
+ONCHOSEN,ONPLAYER,ONNPC,ISNTKNOCK;Neutralize;runscript_unsafe dev_menu@unsafe_NeutralizeCritter $[Critter.Id] 0 0
+ONPLAYER;Be Friendly;internal menu
+SUBMENU;Hug;command slap -p $[Player.Id]
+SUBMENU;Gift;command airstrike -p $[Player.Id]
+
+ONCHOSEN,ONPLAYER,NOHIDE;Armors;internal menu
+
+SUBMENU,NOHIDE;Armor Combat Helmet MKII;command give 726 1 -legit
+SUBMENU,NOHIDE;Armor Combat Armor MKII;command give 381 1 -legit
+
+SUBMENU,NOHIDE;Armor NCR Helmet;command give 741 1 -legit
+SUBMENU,NOHIDE;Armor NCR Armor;command give 9654 1 -legit
+
+SUBMENU,NOHIDE,NOHIDE;Armor Enclave Helmet;command give 738 1 -legit
+SUBMENU,NOHIDE;Armor Enclave Helmet MKII;command give 739 1 -legit
+SUBMENU,NOHIDE;Armor Enclave Armor;command give 752 1 -legit
+
+SUBMENU,NOHIDE;Armor Adv. Power Helmet;command give 735 1 -legit
+SUBMENU,NOHIDE;Armor Adv. Power Armor;command give 348 1 -legit
+
+SUBMENU,NOHIDE;Armor Adv. Power Helmet MKII;command give 736 1 -legit
+SUBMENU,NOHIDE;Armor Adv. Power Armor MKII;command give 349 1 -legit
+
+ONCHOSEN,ONPLAYER,NOHIDE;SG Weaponry;internal menu
+SUBMENU,NOHIDE;Weapon SG Sniper Rifle;command give 143 1 -legit
+SUBMENU,NOHIDE;Weapon SG Gauss Rifle;command give 392 1 -legit
+SUBMENU,NOHIDE;Weapon SG Gauss Pistol;command give 394 1 -legit
+SUBMENU,NOHIDE;Weapon SG Pancor;command give 354 1 -legit
+SUBMENU,NOHIDE;Weapon SG XL;command give 353 1 -legit
+SUBMENU,NOHIDE;Weapon SG 223 pistol;command give 241 1 -legit
+
+ONCHOSEN,ONPLAYER,NOHIDE;BG Weaponry;internal menu
+SUBMENU,NOHIDE;Weapon BG LSW;command give 355 1 -legit
+SUBMENU,NOHIDE;Weapon BG Avenger;command give 389 1 -legit
+SUBMENU,NOHIDE;Weapon BG Bozar;command give 350 1 -legit
+SUBMENU,NOHIDE;Weapon BG RL;command give 13 1 -legit
+SUBMENU,NOHIDE;Weapon BG Vindi;command give 395 1 -legit
+
+ONCHOSEN,ONPLAYER,NOHIDE;EW Weaponry;internal menu
+SUBMENU,NOHIDE;Weapon EW Gatling;command give 28 1 -legit
+SUBMENU,NOHIDE;Weapon EW Plasma Pistol 2;command give 406 1 -legit
+SUBMENU,NOHIDE;Weapon EW Plasma Rifle;command give 15 1 -legit
+SUBMENU,NOHIDE;Weapon EW T.Plasma Rifle;command give 233 1 -legit
+SUBMENU,NOHIDE;Weapon EW Laser Rifle Ext;command give 401 1 -legit
+SUBMENU,NOHIDE;Weapon EW Pulse Pistol;command give 396 1 -legit
+SUBMENU,NOHIDE;Weapon EW Pulse Rifle;command give 397 1 -legit
+
+ONCHOSEN,ONPLAYER,NOHIDE;CC Weaponry;internal menu
+SUBMENU,NOHIDE;Weapon CC SuperSledge;command give 115 1 -legit
+SUBMENU,NOHIDE;Weapon CC M.PowerFist;command give 407 1 -legit
+
+ONCHOSEN,ONPLAYER,NOHIDE;Ammo;internal menu
+SUBMENU,NOHIDE;Ammo .223 x 1000;command give 34 1000 -legit
+SUBMENU,NOHIDE;Ammo 2mmEC x 100;command give 358 100 -legit
+SUBMENU,NOHIDE;Ammo SlugShells x 1000;command give 575 1000 -legit
+SUBMENU,NOHIDE;Ammo GeckoShells x 200;command give 850 200 -legit
+SUBMENU,NOHIDE;Ammo 5mmAP x 1000;command give 36 1000 -legit
+SUBMENU,NOHIDE;Ammo MFC x 500;command give 39 500 -legit
+SUBMENU,NOHIDE;Ammo SBC x 500;command give 38 500 -legit
+SUBMENU,NOHIDE;Ammo Caseless x 200;command give 359 200 -legit
+
+ONCHOSEN,ONPLAYER,NOHIDE;Drugs;internal menu
+SUBMENU,NOHIDE;Drugs - SuperStimpacks;command give 144 50 -legit
+SUBMENU,NOHIDE;Drugs - Hypos;command give 525 5 -legit
+
+ONCHOSEN,ONPLAYER,NOHIDE;Caps;internal menu
+SUBMENU,NOHIDE;10k;command give 41 10000 -legit
+SUBMENU,NOHIDE;100k;command give 41 100000 -legit
+SUBMENU,NOHIDE;1M;command give 41 1000000 -legit
+
+ONGROUND,NOHIDE;Lady M event Teleports;internal menu
+SUBMENU;Summon worldremaker;command summon -p worldremaker
+SUBMENU;TeamTeleport V12-1 winda;command teleportteam 97 1
+SUBMENU;TeamTeleport V12-2 winda;command teleportteam 98 1
+SUBMENU;Mariposa - wyjscie z bazy;command teleportteam 55 1
+SUBMENU;Mariposa - 1 winda;command teleportteam 56 1
+SUBMENU;Mariposa - 2 winda;command teleportteam 57 1
+SUBMENU;Mariposa - 3 winda;command teleportteam 58 1
+SUBMENU;Mariposa - 3 winda na 4;command teleportteam 58 2
+SUBMENU;Mariposa - 4;command teleportteam 56 1
+
+ONGROUND,NOHIDE;Lady M event AddNPCs;internal menu
+SUBMENU;NCR Ranger MALE Pancor NW;command addnpc 475 -x $[HexX] -y $[HexY] -dir 5 -b 218 -l 50
+SUBMENU;NCR Ranger FEMALE Pancor NW;command addnpc 476 -x $[HexX] -y $[HexY] -dir 5 -b 218 -l 50
+SUBMENU;NCR Soldier MALE Pancor NW;command addnpc 518 -x $[HexX] -y $[HexY] -dir 5 -b 218 -l 50
+SUBMENU;NCR Soldier FEMALE Pancor NW;command addnpc 519 -x $[hexX] -y $[HexY] -dir 5 -b 218 -l 50
