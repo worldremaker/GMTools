@@ -1,0 +1,62 @@
+;;
+;;Standard devmenu
+;;
+
+ONITEM,NOHIDE;UNSET (close to RESET);command setcolor -i $[Item.Id] -r 0 -b 0 -g 0 -int 0 -rad 0
+
+ONITEM,NOHIDE;Set new color;internal menu
+SUBMENU,NOHIDE;Full white;command setcolor -i $[Item.Id] -r 255 -g 255 -b 255
+SUBMENU,NOHIDE;Silver;command setcolor -i $[Item.Id] -r 192 -g 192 -b 192
+SUBMENU,NOHIDE;Gray;command setcolor -i $[Item.Id] -r 128 -g 128 -b 128
+SUBMENU,NOHIDE;Full black;command setcolor -i $[Item.Id]
+SUBMENU,NOHIDE;Full red;command setcolor -i $[Item.Id] -r 255
+SUBMENU,NOHIDE;Maroon;command setcolor -i $[Item.Id] -r 0 -g 0 -b 0
+SUBMENU,NOHIDE;Gray;command setcolor -i $[Item.Id] -r 255 -g 255 -b 0
+SUBMENU,NOHIDE;Full green (Lime);command setcolor -i $[Item.Id] -g 255
+SUBMENU,NOHIDE;Green;command setcolor -i $[Item.Id] -g 128
+SUBMENU,NOHIDE;Aqua;command setcolor -i $[Item.Id] -r 0 -g 255 -b 255
+SUBMENU,NOHIDE;Teal;command setcolor -i $[Item.Id] -r 0 -g 128 -b 128
+SUBMENU,NOHIDE;Full blue;command setcolor -i $[Item.Id] -b 255
+SUBMENU,NOHIDE;Navy;command setcolor -i $[Item.Id] -b 128
+SUBMENU,NOHIDE;Orange;command setcolor -i $[Item.Id] -r 255 -g 127 -b 39
+SUBMENU,NOHIDE;Fuchsia;command setcolor -i $[Item.Id] -r 255 -g 0 -b 255
+SUBMENU,NOHIDE;Purple;command setcolor -i $[Item.Id] -r 255 -g 0 -b 255
+SUBMENU,NOHIDE;Pink;command setcolor -i $[Item.Id] -r 255 -g 128 -b 255
+
+ONITEM,NOHIDE;Set new color with radius(10);internal menu
+SUBMENU,NOHIDE;Full white;command setcolor -i $[Item.Id] -r 255 -g 255 -b 255 -rad 10
+SUBMENU,NOHIDE;Silver;command setcolor -i $[Item.Id] -r 192 -g 192 -b 192 -rad 10
+SUBMENU,NOHIDE;Gray;command setcolor -i $[Item.Id] -r 128 -g 128 -b 128 -rad 10
+SUBMENU,NOHIDE;Full black;command setcolor -i $[Item.Id] -rad 10
+SUBMENU,NOHIDE;Full red;command setcolor -i $[Item.Id] -r 255 -rad 10
+SUBMENU,NOHIDE;Maroon;command setcolor -i $[Item.Id] -r 0 -g 0 -b 0 -rad 10
+SUBMENU,NOHIDE;Gray;command setcolor -i $[Item.Id] -r 255 -g 255 -b 0 -rad 10
+SUBMENU,NOHIDE;Full green (Lime);command setcolor -i $[Item.Id] -g 255 -rad 10
+SUBMENU,NOHIDE;Green;command setcolor -i $[Item.Id] -g 128 -rad 10
+SUBMENU,NOHIDE;Aqua;command setcolor -i $[Item.Id] -r 0 -g 255 -b 255 -rad 10
+SUBMENU,NOHIDE;Teal;command setcolor -i $[Item.Id] -r 0 -g 128 -b 128 -rad 10
+SUBMENU,NOHIDE;Full blue;command setcolor -i $[Item.Id] -b 255 -rad 10
+SUBMENU,NOHIDE;Navy;command setcolor -i $[Item.Id] -b 128 -rad 10
+SUBMENU,NOHIDE;Orange;command setcolor -i $[Item.Id] -r 255 -g 127 -b 39 -rad 10
+SUBMENU,NOHIDE;Fuchsia;command setcolor -i $[Item.Id] -r 255 -g 0 -b 255 -rad 10
+SUBMENU,NOHIDE;Purple;command setcolor -i $[Item.Id] -r 255 -g 0 -b 255 -rad 10
+SUBMENU,NOHIDE;Pink;command setcolor -i $[Item.Id] -r 255 -g 128 -b 255 -rad 10
+
+ONITEM,NOHIDE;Set new light with radius(10);internal menu
+SUBMENU,NOHIDE;Full white;command setcolor -i $[Item.Id] -r 255 -g 255 -b 255 -rad 10 -light
+SUBMENU,NOHIDE;Silver;command setcolor -i $[Item.Id] -r 192 -g 192 -b 192 -rad 10 -light
+SUBMENU,NOHIDE;Gray;command setcolor -i $[Item.Id] -r 128 -g 128 -b 128 -rad 10 -light
+SUBMENU,NOHIDE;Full black;command setcolor -i $[Item.Id] -rad 10 -light
+SUBMENU,NOHIDE;Full red;command setcolor -i $[Item.Id] -r 255 -rad 10 -light
+SUBMENU,NOHIDE;Maroon;command setcolor -i $[Item.Id] -r 0 -g 0 -b 0 -rad 10 -light
+SUBMENU,NOHIDE;Gray;command setcolor -i $[Item.Id] -r 255 -g 255 -b 0 -rad 10 -light
+SUBMENU,NOHIDE;Full green (Lime);command setcolor -i $[Item.Id] -g 255 -rad 10 -light
+SUBMENU,NOHIDE;Green;command setcolor -i $[Item.Id] -g 128 -rad 10 -light
+SUBMENU,NOHIDE;Aqua;command setcolor -i $[Item.Id] -r 0 -g 255 -b 255 -rad 10 -light
+SUBMENU,NOHIDE;Teal;command setcolor -i $[Item.Id] -r 0 -g 128 -b 128 -rad 10 -light
+SUBMENU,NOHIDE;Full blue;command setcolor -i $[Item.Id] -b 255 -rad 10 -light
+SUBMENU,NOHIDE;Navy;command setcolor -i $[Item.Id] -b 128 -rad 10 -light
+SUBMENU,NOHIDE;Orange;command setcolor -i $[Item.Id] -r 255 -g 127 -b 39 -rad 10 -light
+SUBMENU,NOHIDE;Fuchsia;command setcolor -i $[Item.Id] -r 255 -g 0 -b 255 -rad 10 -light
+SUBMENU,NOHIDE;Purple;command setcolor -i $[Item.Id] -r 255 -g 0 -b 255 -rad 10 -light
+SUBMENU,NOHIDE;Pink;command setcolor -i $[Item.Id] -r 255 -g 128 -b 255 -rad 10 -light

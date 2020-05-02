@@ -1,0 +1,62 @@
+;;
+;;Standard devmenu
+;;
+
+ONGROUND,ONCHOSEN;Slag Bandits;internal menu
+SUBMENU;Also in jackets and leathers;runscript mob_dynamic@CallMobs 3 1 0
+SUBMENU;Also in leathers;runscript mob_dynamic@CallMobs 3 1 1
+SUBMENU;In metal armors;runscript mob_dynamic@CallMobs 3 1 2
+
+ONGROUND,ONCHOSEN;Vipers Raiders;runscript mob_dynamic@CallMobs 3 2 0
+ONGROUND,ONCHOSEN;Jackals Raiders;runscript mob_dynamic@CallMobs 3 3 0
+ONGROUND,ONCHOSEN;Enclave Soldiers;runscript mob_dynamic@CallMobs 3 4 0
+ONGROUND,ONCHOSEN;Renegades;runscript mob_dynamic@CallMobs 3 5 0
+ONGROUND,ONCHOSEN;Slavers;runscript mob_dynamic@CallMobs 3 6 0
+ONGROUND,ONCHOSEN;Aliens;runscript mob_dynamic@CallMobs 3 7 0
+
+ONGROUND,ONCHOSEN;Deathclaws;internal menu
+SUBMENU;Typical;runscript mob_dynamic@CallMobs 3 8 0
+SUBMENU;Goris;runscript mob_dynamic@CallMobs 3 8 1
+
+ONGROUND,ONCHOSEN;Centaurs ONLY;runscript mob_dynamic@CallMobs 3 9 0
+ONGROUND,ONCHOSEN;Floaters ONLY;runscript mob_dynamic@CallMobs 3 10 0
+ONGROUND,ONCHOSEN;Floaters and Centaurs;runscript mob_dynamic@CallMobs 3 11 0
+ONGROUND,ONCHOSEN;Mercenaries;runscript mob_dynamic@CallMobs 3 12 0
+ONGROUND,ONCHOSEN;Super Mutant Remnants;runscript mob_dynamic@CallMobs 3 13 0
+ONGROUND,ONCHOSEN;Master's Elite Crew;runscript mob_dynamic@CallMobs 3 14 0
+
+ONGROUND,ONCHOSEN;Ghouls;internal menu
+SUBMENU;Glowing and brown ghouls;runscript mob_dynamic@CallMobs 3 15 0
+SUBMENU;Reactor ghouls;runscript mob_dynamic@CallMobs 3 15 1
+SUBMENU;Brown ghouls;runscript mob_dynamic@CallMobs 3 15 2
+SUBMENU;Brown and reactor ghouls;runscript mob_dynamic@CallMobs 3 15 3
+SUBMENU;Reactor ghouls;runscript mob_dynamic@CallMobs 3 15 4
+
+ONGROUND,ONCHOSEN;Spiders;runscript mob_dynamic@CallMobs 3 16 0
+ONGROUND,ONCHOSEN;Dogs;runscript mob_dynamic@CallMobs 3 17 0
+ONGROUND,ONCHOSEN;Radscorpions;runscript mob_dynamic@CallMobs 3 18 0
+
+ONGROUND,ONCHOSEN;Melchior;internal menu
+SUBMENU;Melchior's pets ONLY;runscript mob_dynamic@CallMobs 3 19 0
+SUBMENU;Melchior with his pets;runscript mob_dynamic@CallMobs 7 19 1
+
+ONGROUND,ONCHOSEN;Robots;internal menu
+SUBMENU;All kinds;runscript mob_dynamic@CallMobs 3 20 0
+SUBMENU;Mr Handy ONLY;runscript mob_dynamic@CallMobs 3 20 1
+SUBMENU;Robobrains ONLY;runscript mob_dynamic@CallMobs 3 20 2
+SUBMENU;Eyebots ONLY;runscript mob_dynamic@CallMobs 3 20 3
+SUBMENU;Sentry bots ONLY;runscript mob_dynamic@CallMobs 3 20 4
+
+ONGROUND,ONCHOSEN;Vault 13 Dwellers;runscript mob_dynamic@CallMobs 3 21 0
+ONGROUND,ONCHOSEN;NCR Soldiers and Rangers;runscript mob_dynamic@CallMobs 3 22 0
+
+ONGROUND,ONCHOSEN;Rats;internal menu
+SUBMENU;All kinds;runscript mob_dynamic@CallMobs 3 23 0
+SUBMENU;Molerats ONLY;runscript mob_dynamic@CallMobs 3 23 1
+SUBMENU;Rats ONLY;runscript mob_dynamic@CallMobs 3 23 2
+SUBMENU;Pigrats ONLY;runscript mob_dynamic@CallMobs 3 23 3
+SUBMENU;Rats and pigrats;runscript mob_dynamic@CallMobs 3 23 4
+SUBMENU;Rats and molerats;runscript mob_dynamic@CallMobs 3 23 5
+SUBMENU;Molerats and pigrats;runscript mob_dynamic@CallMobs 3 23 6
+
+ONGROUND,ONCHOSEN;Scavengers;runscript mob_dynamic@CallMobs 3 24 0

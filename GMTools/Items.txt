@@ -1,6 +1,10 @@
 ;;
 ;;Standard devmenu
 ;;
+
+ONGROUND,ONITEM;Change color (new menu);loadmenu GMTools\\set_colors.txt
+ONGROUND,ONITEM;Cars (new menu);loadmenu GMTools\\spawncars.txt
+
 ONGROUND;Spawn Books;internal menu
 
 SUBMENU;Small Guns;command spawnitem 102 1000 -x $[HexX] -y $[HexY]
@@ -26,75 +30,76 @@ SUBMENU;Combat Armor 13pcs;command give 17 13 -legit
 
 ONCHOSEN,NOHIDE;Give Drugs;internal menu
 
-SUBMENU,NOHIDE;Buffout;command give 87 1 -legit
-SUBMENU,NOHIDE;Psycho;command give 110 1 -legit
-SUBMENU,NOHIDE;Beer;command give 124 1 -legit
-SUBMENU,NOHIDE;Cigs;command give 541 1 -legit
-SUBMENU,NOHIDE;Jet;command give 259 1 -legit
-SUBMENU,NOHIDE;Nuka Cola;command give 106 1 -legit
-SUBMENU,NOHIDE;Zippo Lighter;command give 101 1 -legit
+SUBMENU,NOHIDE;Buffout;command give 87 1-p $[Critter.Id]  -legit
+SUBMENU,NOHIDE;Psycho;command give 110 1 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;Beer;command give 124 1 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;Cigs;command give 541 1 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;Jet;command give 259 1 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;Nuka Cola;command give 106 1 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;Zippo Lighter;command give 101 1 -p $[Critter.Id] -legit
 
-ONCHOSEN,ONPLAYER,NOHIDE;Armors;internal menu
+ONCHOSEN,ONPLAYER,ONNPC,NOHIDE;Armors;internal menu
 
-SUBMENU,NOHIDE;Armor Combat Helmet MKII;command give 726 1 -legit
-SUBMENU,NOHIDE;Armor Combat Armor MKII;command give 381 1 -legit
+SUBMENU,NOHIDE;Armor Combat Helmet MKII;command give 726 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Armor Combat Armor MKII;command give 381 1 -p $[Critter.Id] -legit -addbonusornot
 
-SUBMENU,NOHIDE;Armor NCR Helmet;command give 741 1 -legit
-SUBMENU,NOHIDE;Armor NCR Armor;command give 9654 1 -legit
+SUBMENU,NOHIDE;Armor NCR Helmet;command give 741 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Armor NCR Armor;command give 9654 1 -p $[Critter.Id] -legit -addbonusornot
 
-SUBMENU,NOHIDE,NOHIDE;Armor Enclave Helmet;command give 738 1 -legit
-SUBMENU,NOHIDE;Armor Enclave Helmet MKII;command give 739 1 -legit
-SUBMENU,NOHIDE;Armor Enclave Armor;command give 752 1 -legit
+SUBMENU,NOHIDE,NOHIDE;Armor Enclave Helmet;command give 738 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Armor Enclave Helmet MKII;command give 739 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Armor Enclave Armor;command give 752 1 -p $[Critter.Id] -legit -addbonusornot
 
-SUBMENU,NOHIDE;Armor Adv. Power Helmet;command give 735 1 -legit
-SUBMENU,NOHIDE;Armor Adv. Power Armor;command give 348 1 -legit
+SUBMENU,NOHIDE;Armor Adv. Power Helmet;command give 735 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Armor Adv. Power Armor;command give 348 1 -p $[Critter.Id] -legit -addbonusornot
 
-SUBMENU,NOHIDE;Armor Adv. Power Helmet MKII;command give 736 1 -legit
-SUBMENU,NOHIDE;Armor Adv. Power Armor MKII;command give 349 1 -legit
+SUBMENU,NOHIDE;Armor Adv. Power Helmet MKII;command give 736 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Armor Adv. Power Armor MKII;command give 349 1 -p $[Critter.Id] -legit -addbonusornot
 
-ONCHOSEN,ONPLAYER,NOHIDE;SG Weaponry;internal menu
-SUBMENU,NOHIDE;Weapon SG Sniper Rifle;command give 143 1 -legit
-SUBMENU,NOHIDE;Weapon SG Gauss Rifle;command give 392 1 -legit
-SUBMENU,NOHIDE;Weapon SG Gauss Pistol;command give 394 1 -legit
-SUBMENU,NOHIDE;Weapon SG Pancor;command give 354 1 -legit
-SUBMENU,NOHIDE;Weapon SG XL;command give 353 1 -legit
-SUBMENU,NOHIDE;Weapon SG 223 pistol;command give 241 1 -legit
+ONCHOSEN,ONPLAYER,ONNPC,NOHIDE;SG Weaponry;internal menu
+SUBMENU,NOHIDE;Weapon SG Sniper Rifle;command give 143 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Weapon SG Gauss Rifle;command give 392 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Weapon SG Gauss Pistol;command give 394 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Weapon SG Pancor;command give 354 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Weapon SG XL;command give 353 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Weapon SG 223 pistol;command give 241 1 -p $[Critter.Id] -legit -addbonusornot
 
-ONCHOSEN,ONPLAYER,NOHIDE;BG Weaponry;internal menu
-SUBMENU,NOHIDE;Weapon BG LSW;command give 355 1 -legit
-SUBMENU,NOHIDE;Weapon BG Avenger;command give 389 1 -legit
-SUBMENU,NOHIDE;Weapon BG Bozar;command give 350 1 -legit
-SUBMENU,NOHIDE;Weapon BG RL;command give 13 1 -legit
-SUBMENU,NOHIDE;Weapon BG Vindi;command give 395 1 -legit
+ONCHOSEN,ONPLAYER,ONNPC,NOHIDE;BG Weaponry;internal menu
+SUBMENU,NOHIDE;Weapon BG LSW;command give 355 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Weapon BG Avenger;command give 389 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Weapon BG Bozar;command give 350 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Weapon BG RL;command give 13 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Weapon BG Vindi;command give 395 1 -p $[Critter.Id] -legit -addbonusornot
 
-ONCHOSEN,ONPLAYER,NOHIDE;EW Weaponry;internal menu
-SUBMENU,NOHIDE;Weapon EW Gatling;command give 28 1 -legit
-SUBMENU,NOHIDE;Weapon EW Plasma Pistol 2;command give 406 1 -legit
-SUBMENU,NOHIDE;Weapon EW Plasma Rifle;command give 15 1 -legit
-SUBMENU,NOHIDE;Weapon EW T.Plasma Rifle;command give 233 1 -legit
-SUBMENU,NOHIDE;Weapon EW Laser Rifle Ext;command give 401 1 -legit
-SUBMENU,NOHIDE;Weapon EW Pulse Pistol;command give 396 1 -legit
-SUBMENU,NOHIDE;Weapon EW Pulse Rifle;command give 397 1 -legit
+ONCHOSEN,ONPLAYER,ONNPC,NOHIDE;EW Weaponry;internal menu
+SUBMENU,NOHIDE;Weapon EW Gatling;command give 28 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Weapon EW Plasma Pistol 2;command give 406 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Weapon EW Plasma Rifle;command give 15 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Weapon EW T.Plasma Rifle;command give 233 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Weapon EW Laser Rifle Ext;command give 401 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Weapon EW Pulse Pistol;command give 396 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Weapon EW Pulse Rifle;command give 397 1 -p $[Critter.Id] -legit -addbonusornot
 
-ONCHOSEN,ONPLAYER,NOHIDE;CC Weaponry;internal menu
-SUBMENU,NOHIDE;Weapon CC SuperSledge;command give 115 1 -legit
-SUBMENU,NOHIDE;Weapon CC M.PowerFist;command give 407 1 -legit
+ONCHOSEN,ONPLAYER,ONNPC,NOHIDE;CC Weaponry;internal menu
+SUBMENU,NOHIDE;Weapon CC SuperSledge;command give 115 1 -p $[Critter.Id] -legit -addbonusornot
+SUBMENU,NOHIDE;Weapon CC M.PowerFist;command give 407 1 -p $[Critter.Id] -legit -addbonusornot
 
-ONCHOSEN,ONPLAYER,NOHIDE;Ammo;internal menu
-SUBMENU,NOHIDE;Ammo .223 x 1000;command give 34 1000 -legit
-SUBMENU,NOHIDE;Ammo 2mmEC x 100;command give 358 100 -legit
-SUBMENU,NOHIDE;Ammo SlugShells x 1000;command give 575 1000 -legit
-SUBMENU,NOHIDE;Ammo GeckoShells x 200;command give 850 200 -legit
-SUBMENU,NOHIDE;Ammo 5mmAP x 1000;command give 36 1000 -legit
-SUBMENU,NOHIDE;Ammo MFC x 500;command give 39 500 -legit
-SUBMENU,NOHIDE;Ammo SBC x 500;command give 38 500 -legit
-SUBMENU,NOHIDE;Ammo Caseless x 200;command give 359 200 -legit
+ONCHOSEN,ONPLAYER,ONNPC,NOHIDE;Ammo;internal menu
+SUBMENU,NOHIDE;Ammo .223 x 1000;command give 34 1000 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;Ammo 2mmEC x 100;command give 358 100 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;Ammo SlugShells x 1000;command give 575 1000 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;Ammo GeckoShells x 200;command give 850 200 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;Ammo 5mmAP x 1000;command give 36 1000 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;Ammo MFC x 500;command give 39 500 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;Ammo SBC x 500;command give 38 500 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;Ammo Caseless x 200;command give 359 200 -p $[Critter.Id] -legit
 
-ONCHOSEN,ONPLAYER,NOHIDE;Drugs;internal menu
-SUBMENU,NOHIDE;Drugs - SuperStimpacks;command give 144 50 -legit
-SUBMENU,NOHIDE;Drugs - Hypos;command give 525 5 -legit
+ONCHOSEN,ONPLAYER,ONNPC,NOHIDE;Drugs;internal menu
+SUBMENU,NOHIDE;Drugs - SuperStimpacks 50;command give 144 50 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;Drugs - SuperStimpacks Set to 25;command give 144 25 -legit -p $[Critter.Id] -setnewcount
+SUBMENU,NOHIDE;Drugs - Hypos 5;command give 525 5 -p $[Critter.Id] -legit
 
-ONCHOSEN,ONPLAYER,NOHIDE;Caps;internal menu
-SUBMENU,NOHIDE;10k;command give 41 10000 -legit
-SUBMENU,NOHIDE;100k;command give 41 100000 -legit
-SUBMENU,NOHIDE;1M;command give 41 1000000 -legit
+ONCHOSEN,ONPLAYER,NOHIDE;Caps (set to);internal menu
+SUBMENU,NOHIDE;10k;command give 41 10000 -p $[Critter.Id] -legit -setnewcount
+SUBMENU,NOHIDE;100k;command give 41 100000 -p $[Critter.Id] -legit -setnewcount
+SUBMENU,NOHIDE;1M;command give 41 1000000 -p $[Critter.Id] -legit -setnewcount

@@ -1,6 +1,10 @@
 ;;
 ;;Standard devmenu
 ;;
+
+ONGROUND;Call Dynamic Mobs! (new menu);loadmenu GMTools\\mob_dynamic.txt
+ONGROUND;Call Raiders! (new menu);loadmenu GMTools\\mob_raiders.txt
+
 ONGROUND;GM Events - Multi Exp GLOBAL 24h;internal menu
 SUBMENU;x2;command setgmevent multiexp 1440 2
 SUBMENU;x3;command setgmevent multiexp 1440 3

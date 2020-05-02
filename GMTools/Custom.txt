@@ -77,6 +77,8 @@ SUBMENU,NOHIDE;Jet;command give 259 1 -legit
 SUBMENU,NOHIDE;Nuka Cola;command give 106 1 -legit
 SUBMENU,NOHIDE;Zippo Lighter;command give 101 1 -legit
 
+
+ONGROUND;Clear Enemy Stacks; command clearenemystacks
 ONPLAYER,ONNPC;Possess;internal possess
 ONPLAYER,ONNPC;Trade;runscript_unsafe dev_menu@unsafe_Trade $[Critter.Id] 0 0
 ONITEM,ISCONTAINER;Browse items;runscript_unsafe dev_menu@unsafe_Trade 0 $[Item.Id] 0

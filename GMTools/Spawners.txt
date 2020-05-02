@@ -2,8 +2,6 @@
 ;;Standard devmenu
 ;;
 
-ONGROUND;zmiana konfiga na test.txt;runscript_unsafe client_gmtools_menu@GMToolsLoadMenu test.txt
-
 
 ONGROUND;GM Spawners test;internal menu
 SUBMENU;Buffed Armors test;command spawnitem 63 1 -x $[HexX] -y $[HexY] -v4 108 -script item_spawner_container@item_init -legit

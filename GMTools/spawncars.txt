@@ -1,0 +1,21 @@
+;;
+;;Standard devmenu
+;;
+
+ONGROUND;Rusty Highwayman;command spawncar 550 -legit
+ONGROUND;White Caravan Cart;command spawncar 558 -legit
+ONGROUND;Orange Caravan Cart;command spawncar 559 -legit
+ONGROUND;Cockroach;command spawncar 560 -legit
+ONGROUND;A carwreck;command spawncar 563 -legit
+ONGROUND;Hummer;command spawncar 800 -legit
+ONGROUND;Buggy;command spawncar 802 -legit
+ONGROUND;Scout;command spawncar 805 -legit
+ONGROUND;Vertibird;command spawncar 808 -legit
+ONGROUND;Highwayman;command spawncar 816 -legit
+ONGROUND;Corvega;command spawncar 831 -legit
+ONGROUND;Tardis;command spawncar 9673 -legit
+ONGROUND;Police Car;command spawncar 9746 -legit
+ONGROUND;Motorbike;command spawncar 9925 -legit
+ONGROUND;A Fire Truck;command spawncar 9927 -legit
+ONGROUND;A Truck;command spawncar 9929 -legit
+ONGROUND;Barge;command spawncar 9931 -legit
