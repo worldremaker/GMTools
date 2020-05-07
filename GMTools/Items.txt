@@ -4,6 +4,7 @@
 
 ONGROUND,ONITEM;Change color (new menu);loadmenu GMTools\\set_colors.txt
 ONGROUND,ONITEM;Cars (new menu);loadmenu GMTools\\spawncars.txt
+ONGROUND,ONITEM;Cars (new menu);loadmenu GMTools\\keys.txt
 
 ONGROUND;Spawn Books;internal menu
 
@@ -13,6 +14,15 @@ SUBMENU;Repair;command spawnitem 76 1000 -x $[HexX] -y $[HexY]
 SUBMENU;Science;command spawnitem 73 1000 -x $[HexX] -y $[HexY]
 SUBMENU;Barter;command spawnitem 22050 1000 -x $[HexX] -y $[HexY]
 SUBMENU;Outdoorsman;command spawnitem 86 1000 -x $[HexX] -y $[HexY]
+
+ONCHOSEN,ONPLAYER,ONNPC,NOHIDE;Spawn Books;internal menu
+
+SUBMENU;Small Guns;command give 102 10 -legit -p $[Critter.Id] -setnewcount
+SUBMENU;First Aid;command give 80 10 -legit -p $[Critter.Id] -setnewcount
+SUBMENU;Repair;command give 76 10 -legit -p $[Critter.Id] -setnewcount
+SUBMENU;Science;command give 73 10 -legit -p $[Critter.Id] -setnewcount
+SUBMENU;Barter;command give 22050 10 -legit -p $[Critter.Id] -setnewcount
+SUBMENU;Outdoorsman;command give 86 10 -legit -p $[Critter.Id] -setnewcount
 
 ONGROUND;Spawn Implants;internal menu
 
@@ -26,13 +36,30 @@ SUBMENU;LK;command spawnitem 22060 100 -x $[HexX] -y $[HexY]
 SUBMENU;Dermal;command spawnitem 22051 100 -x $[HexX] -y $[HexY]
 SUBMENU;Nemean;command spawnitem 22053 100 -x $[HexX] -y $[HexY]
 SUBMENU;Phoenix;command spawnitem 22052 100 -x $[HexX] -y $[HexY]
-SUBMENU;Combat Armor 13pcs;command give 17 13 -legit
+SUBMENU;Combat Armor 13pcs;command spawnitem 17 13 -legit
 
-ONCHOSEN,NOHIDE;Give Drugs;internal menu
+ONCHOSEN,ONPLAYER,ONNPC,NOHIDE;Give Implants;internal menu
 
-SUBMENU,NOHIDE;Buffout;command give 87 1-p $[Critter.Id]  -legit
+SUBMENU;ST;command give 22054 1 -legit -p $[Critter.Id] -setnewcount
+SUBMENU;PE;command give 22055 1 -legit -p $[Critter.Id] -setnewcount
+SUBMENU;EN;command give 22056 1 -legit -p $[Critter.Id] -setnewcount
+SUBMENU;CH;command give 22057 1 -legit -p $[Critter.Id] -setnewcount
+SUBMENU;IN;command give 22058 1 -legit -p $[Critter.Id] -setnewcount
+SUBMENU;AG;command give 22059 1 -legit -p $[Critter.Id] -setnewcount
+SUBMENU;LK;command give 22060 1 -legit -p $[Critter.Id] -setnewcount
+SUBMENU;Dermal;command give 22051 2 -legit -p $[Critter.Id] -setnewcount
+SUBMENU;Nemean;command give 22053 2 -legit -p $[Critter.Id] -setnewcount
+SUBMENU;Phoenix;command give 22052 2 -legit -p $[Critter.Id] -setnewcount
+SUBMENU;Combat Armor 13pcs;command give 17 13 -legit -p $[Critter.Id]
+
+ONCHOSEN,ONPLAYER,ONNPC,NOHIDE;Give Drugs;internal menu
+SUBMENU,NOHIDE;Buffout;command give 87 1 -p $[Critter.Id]  -legit
 SUBMENU,NOHIDE;Psycho;command give 110 1 -p $[Critter.Id] -legit
 SUBMENU,NOHIDE;Beer;command give 124 1 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;Booze;command give 125 1 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;Gamma Gulp Beer;command give 310 1 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;Roentgen Rum;command give 311 1 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;Rot Gut;command give 469 1 -p $[Critter.Id] -legit
 SUBMENU,NOHIDE;Cigs;command give 541 1 -p $[Critter.Id] -legit
 SUBMENU,NOHIDE;Jet;command give 259 1 -p $[Critter.Id] -legit
 SUBMENU,NOHIDE;Nuka Cola;command give 106 1 -p $[Critter.Id] -legit

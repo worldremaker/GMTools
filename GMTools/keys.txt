@@ -1,0 +1,6 @@
+;;
+;;Standard devmenu
+;;
+
+ONCHOSEN,ONPLAYER,ONNPC;Key to Talchem HQ;command givekey 1 1 105 -legit -p $[Critter.Id] -setnewcount
+ONCHOSEN,ONPLAYER,ONNPC;Key to Vault 13;command givekey 1 1 25444 -legit -p $[Critter.Id] -setnewcount
