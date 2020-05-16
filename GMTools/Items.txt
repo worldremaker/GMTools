@@ -4,7 +4,7 @@
 
 ONGROUND,ONITEM;Change color (new menu);loadmenu GMTools\\set_colors.txt
 ONGROUND,ONITEM;Cars (new menu);loadmenu GMTools\\spawncars.txt
-ONGROUND,ONITEM;Cars (new menu);loadmenu GMTools\\keys.txt
+ONGROUND,ONITEM;Keys (new menu);loadmenu GMTools\\keys.txt
 
 ONGROUND;Spawn Books;internal menu
 
