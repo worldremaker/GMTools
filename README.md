@@ -1,5 +1,6 @@
 # GMTools
 
+### Important!
 It's not compatible with Aftertimes S2 SDK, from 3rd reviosion it's preparing for Aftertimes S3.
 
 Buttons for Aftertimes's GMs.
