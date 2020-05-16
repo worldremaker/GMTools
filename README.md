@@ -8,7 +8,8 @@ Buttons for Aftertimes's GMs.
 Add this to `GMTools` directory in Aftertimes client's dir...
 
 Use it with following lines in FOnlineAT.cfg file
-```[GMT]
+```
+[GMT]
 Possess=1
 OSDInfoLocation=Maps,Position,Type,Extra
 Enabled=1
@@ -19,4 +20,5 @@ CritterInfo=Extra
 OSDInfoCritter=Picture,Extra
 ItemInfo=Extra
 Menu=1
-OSDInfoItem=Extra```
+OSDInfoItem=Extra
+```
