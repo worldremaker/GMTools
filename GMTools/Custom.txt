@@ -2,8 +2,9 @@
 ;;Standard devmenu
 ;;
 
+ONGROUND;Economy (new menu);loadmenu GMTools\\economy.txt
+
 ONITEM;Open-Close;runscript_unsafe dev_menu@unsafe_SwitchState $[Item.Id] 0 0
-ONGROUND;zmiana konfiga na test.txt;runscript_unsafe client_gmtools_menu@GMToolsLoadMenu test.txt
 
 ONGROUND;Spawn NPC;internal menu
 

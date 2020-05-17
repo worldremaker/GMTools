@@ -2,6 +2,8 @@
 ;;Standard devmenu
 ;;
 
+ONGROUND;Economy (new menu);loadmenu GMTools\\economy.txt
+
 ONPLAYER,ONNPC;Possess;internal possess
 ONPLAYER,ONNPC;Trade;runscript_unsafe dev_menu@unsafe_Trade $[Critter.Id] 0 0
 ONITEM,ISCONTAINER;Browse items;runscript_unsafe dev_menu@unsafe_Trade 0 $[Item.Id] 0

@@ -24,6 +24,19 @@ SUBMENU;Science;command give 73 10 -legit -p $[Critter.Id] -setnewcount
 SUBMENU;Barter;command give 22050 10 -legit -p $[Critter.Id] -setnewcount
 SUBMENU;Outdoorsman;command give 86 10 -legit -p $[Critter.Id] -setnewcount
 
+ONCHOSEN,NOHIDE;Give Level Book;internal menu
+SUBMENU;Level 18;command givelevelbook 18
+SUBMENU;Level 24;command givelevelbook 24
+SUBMENU;Level 30;command givelevelbook 30
+SUBMENU;Level 40;command givelevelbook 40
+SUBMENU;Level 50;command givelevelbook 50
+SUBMENU;Level 75;command givelevelbook 75
+SUBMENU;Level 100;command givelevelbook 100
+SUBMENU;Level 125;command givelevelbook 125
+SUBMENU;Level 150;command givelevelbook 150
+SUBMENU;Level 175;command givelevelbook 175
+SUBMENU;Level 200;command givelevelbook 200
+
 ONGROUND;Spawn Implants;internal menu
 
 SUBMENU;ST;command spawnitem 22054 100 -x $[HexX] -y $[HexY]

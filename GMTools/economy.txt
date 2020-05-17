@@ -1,0 +1,159 @@
+;;
+;;Standard devmenu
+;;
+
+ONGROUND,NOHIDE;Check virtual sum;internal virtualmoney
+
+ONGROUND,NOHIDE;Check bank in;internal menu
+SUBMENU;Vault City;command checkbank -b 0
+SUBMENU;Redding;command checkbank -b 1
+SUBMENU;Broken Hills;command checkbank -b 2
+SUBMENU;San Francisco;command checkbank -b 3
+SUBMENU;NCR;command checkbank -b 4
+SUBMENU;Hub;command checkbank -b 5
+SUBMENU;Salt Lake City;command checkbank -b 6
+
+ONGROUND,NOHIDE;Add money to bank in Vault City;internal menu
+SUBMENU;Add 100k caps;command addbankmoney -b 0 -a 100000
+SUBMENU;Add 200k caps;command addbankmoney -b 0 -a 200000
+SUBMENU;Add 500k caps;command addbankmoney -b 0 -a 500000
+SUBMENU;Add 1M caps;command addbankmoney -b 0 -a 1000000
+SUBMENU;Add 2M caps;command addbankmoney -b 0 -a 2000000
+SUBMENU;Add 5M caps;command addbankmoney -b 0 -a 5000000
+SUBMENU;Add 10M caps;command addbankmoney -b 0 -a 10000000
+
+ONGROUND,NOHIDE;Add money to bank in Vault City;internal menu
+SUBMENU;Add 100k caps;command addbankmoney -b 0 -a 100000
+SUBMENU;Add 200k caps;command addbankmoney -b 0 -a 200000
+SUBMENU;Add 500k caps;command addbankmoney -b 0 -a 500000
+SUBMENU;Add 1M caps;command addbankmoney -b 0 -a 1000000
+SUBMENU;Add 2M caps;command addbankmoney -b 0 -a 2000000
+SUBMENU;Add 5M caps;command addbankmoney -b 0 -a 5000000
+SUBMENU;Add 10M caps;command addbankmoney -b 0 -a 10000000
+
+ONGROUND,NOHIDE;Add money to bank in Redding;internal menu
+SUBMENU;Add 100k caps;command addbankmoney -b 1 -a 100000
+SUBMENU;Add 200k caps;command addbankmoney -b 1 -a 200000
+SUBMENU;Add 500k caps;command addbankmoney -b 1 -a 500000
+SUBMENU;Add 1M caps;command addbankmoney -b 1 -a 1000000
+SUBMENU;Add 2M caps;command addbankmoney -b 1 -a 2000000
+SUBMENU;Add 5M caps;command addbankmoney -b 1 -a 5000000
+SUBMENU;Add 10M caps;command addbankmoney -b 1 -a 10000000
+
+ONGROUND,NOHIDE;Add money to bank in Broken Hills;internal menu
+SUBMENU;Add 100k caps;command addbankmoney -b 2 -a 100000
+SUBMENU;Add 200k caps;command addbankmoney -b 2 -a 200000
+SUBMENU;Add 500k caps;command addbankmoney -b 2 -a 500000
+SUBMENU;Add 1M caps;command addbankmoney -b 2 -a 1000000
+SUBMENU;Add 2M caps;command addbankmoney -b 2 -a 2000000
+SUBMENU;Add 5M caps;command addbankmoney -b 2 -a 5000000
+SUBMENU;Add 10M caps;command addbankmoney -b 2 -a 10000000
+
+ONGROUND,NOHIDE;Add money to bank in San Francisco;internal menu
+SUBMENU;Add 100k caps;command addbankmoney -b 3 -a 100000
+SUBMENU;Add 200k caps;command addbankmoney -b 3 -a 200000
+SUBMENU;Add 500k caps;command addbankmoney -b 3 -a 500000
+SUBMENU;Add 1M caps;command addbankmoney -b 3 -a 1000000
+SUBMENU;Add 2M caps;command addbankmoney -b 3 -a 2000000
+SUBMENU;Add 5M caps;command addbankmoney -b 3 -a 5000000
+SUBMENU;Add 10M caps;command addbankmoney -b 3 -a 10000000
+
+ONGROUND,NOHIDE;Add money to bank in NCR;internal menu
+SUBMENU;Add 100k caps;command addbankmoney -b 4 -a 100000
+SUBMENU;Add 200k caps;command addbankmoney -b 4 -a 200000
+SUBMENU;Add 500k caps;command addbankmoney -b 4 -a 500000
+SUBMENU;Add 1M caps;command addbankmoney -b 4 -a 1000000
+SUBMENU;Add 2M caps;command addbankmoney -b 4 -a 2000000
+SUBMENU;Add 5M caps;command addbankmoney -b 4 -a 5000000
+SUBMENU;Add 10M caps;command addbankmoney -b 4 -a 10000000
+
+ONGROUND,NOHIDE;Add money to bank in Hub;internal menu
+SUBMENU;Add 100k caps;command addbankmoney -b 5 -a 100000
+SUBMENU;Add 200k caps;command addbankmoney -b 5 -a 200000
+SUBMENU;Add 500k caps;command addbankmoney -b 5 -a 500000
+SUBMENU;Add 1M caps;command addbankmoney -b 5 -a 1000000
+SUBMENU;Add 2M caps;command addbankmoney -b 5 -a 2000000
+SUBMENU;Add 5M caps;command addbankmoney -b 5 -a 5000000
+SUBMENU;Add 10M caps;command addbankmoney -b 5 -a 10000000
+
+ONGROUND,NOHIDE;Add money to bank in Salt Lake;internal menu
+SUBMENU;Add 100k caps;command addbankmoney -b 6 -a 100000
+SUBMENU;Add 200k caps;command addbankmoney -b 6 -a 200000
+SUBMENU;Add 500k caps;command addbankmoney -b 6 -a 500000
+SUBMENU;Add 1M caps;command addbankmoney -b 6 -a 1000000
+SUBMENU;Add 2M caps;command addbankmoney -b 6 -a 2000000
+SUBMENU;Add 5M caps;command addbankmoney -b 6 -a 5000000
+SUBMENU;Add 10M caps;command addbankmoney -b 6 -a 10000000
+
+
+ONGROUND,NOHIDE;Remove money from bank in Vault City;internal menu
+SUBMENU;Remove 100k caps;command removebankmoney -b 0 -a 100000
+SUBMENU;Remove 200k caps;command removebankmoney -b 0 -a 200000
+SUBMENU;Remove 500k caps;command removebankmoney -b 0 -a 500000
+SUBMENU;Remove 1M caps;command removebankmoney -b 0 -a 1000000
+SUBMENU;Remove 2M caps;command removebankmoney -b 0 -a 2000000
+SUBMENU;Remove 5M caps;command removebankmoney -b 0 -a 5000000
+SUBMENU;Remove 10M caps;command removebankmoney -b 0 -a 10000000
+
+ONGROUND,NOHIDE;Remove money from bank in Vault City;internal menu
+SUBMENU;Remove 100k caps;command removebankmoney -b 0 -a 100000
+SUBMENU;Remove 200k caps;command removebankmoney -b 0 -a 200000
+SUBMENU;Remove 500k caps;command removebankmoney -b 0 -a 500000
+SUBMENU;Remove 1M caps;command removebankmoney -b 0 -a 1000000
+SUBMENU;Remove 2M caps;command removebankmoney -b 0 -a 2000000
+SUBMENU;Remove 5M caps;command removebankmoney -b 0 -a 5000000
+SUBMENU;Remove 10M caps;command removebankmoney -b 0 -a 10000000
+
+ONGROUND,NOHIDE;Remove money from bank in Redding;internal menu
+SUBMENU;Remove 100k caps;command removebankmoney -b 1 -a 100000
+SUBMENU;Remove 200k caps;command removebankmoney -b 1 -a 200000
+SUBMENU;Remove 500k caps;command removebankmoney -b 1 -a 500000
+SUBMENU;Remove 1M caps;command removebankmoney -b 1 -a 1000000
+SUBMENU;Remove 2M caps;command removebankmoney -b 1 -a 2000000
+SUBMENU;Remove 5M caps;command removebankmoney -b 1 -a 5000000
+SUBMENU;Remove 10M caps;command removebankmoney -b 1 -a 10000000
+
+ONGROUND,NOHIDE;Remove money from bank in Broken Hills;internal menu
+SUBMENU;Remove 100k caps;command removebankmoney -b 2 -a 100000
+SUBMENU;Remove 200k caps;command removebankmoney -b 2 -a 200000
+SUBMENU;Remove 500k caps;command removebankmoney -b 2 -a 500000
+SUBMENU;Remove 1M caps;command removebankmoney -b 2 -a 1000000
+SUBMENU;Remove 2M caps;command removebankmoney -b 2 -a 2000000
+SUBMENU;Remove 5M caps;command removebankmoney -b 2 -a 5000000
+SUBMENU;Remove 10M caps;command removebankmoney -b 2 -a 10000000
+
+ONGROUND,NOHIDE;Remove money from bank in San Francisco;internal menu
+SUBMENU;Remove 100k caps;command removebankmoney -b 3 -a 100000
+SUBMENU;Remove 200k caps;command removebankmoney -b 3 -a 200000
+SUBMENU;Remove 500k caps;command removebankmoney -b 3 -a 500000
+SUBMENU;Remove 1M caps;command removebankmoney -b 3 -a 1000000
+SUBMENU;Remove 2M caps;command removebankmoney -b 3 -a 2000000
+SUBMENU;Remove 5M caps;command removebankmoney -b 3 -a 5000000
+SUBMENU;Remove 10M caps;command removebankmoney -b 3 -a 10000000
+
+ONGROUND,NOHIDE;Remove money from bank in NCR;internal menu
+SUBMENU;Remove 100k caps;command removebankmoney -b 4 -a 100000
+SUBMENU;Remove 200k caps;command removebankmoney -b 4 -a 200000
+SUBMENU;Remove 500k caps;command removebankmoney -b 4 -a 500000
+SUBMENU;Remove 1M caps;command removebankmoney -b 4 -a 1000000
+SUBMENU;Remove 2M caps;command removebankmoney -b 4 -a 2000000
+SUBMENU;Remove 5M caps;command removebankmoney -b 4 -a 5000000
+SUBMENU;Remove 10M caps;command removebankmoney -b 4 -a 10000000
+
+ONGROUND,NOHIDE;Remove money from bank in Hub;internal menu
+SUBMENU;Remove 100k caps;command removebankmoney -b 5 -a 100000
+SUBMENU;Remove 200k caps;command removebankmoney -b 5 -a 200000
+SUBMENU;Remove 500k caps;command removebankmoney -b 5 -a 500000
+SUBMENU;Remove 1M caps;command removebankmoney -b 5 -a 1000000
+SUBMENU;Remove 2M caps;command removebankmoney -b 5 -a 2000000
+SUBMENU;Remove 5M caps;command removebankmoney -b 5 -a 5000000
+SUBMENU;Remove 10M caps;command removebankmoney -b 5 -a 10000000
+
+ONGROUND,NOHIDE;Remove money from bank in Salt Lake;internal menu
+SUBMENU;Remove 100k caps;command removebankmoney -b 6 -a 100000
+SUBMENU;Remove 200k caps;command removebankmoney -b 6 -a 200000
+SUBMENU;Remove 500k caps;command removebankmoney -b 6 -a 500000
+SUBMENU;Remove 1M caps;command removebankmoney -b 6 -a 1000000
+SUBMENU;Remove 2M caps;command removebankmoney -b 6 -a 2000000
+SUBMENU;Remove 5M caps;command removebankmoney -b 6 -a 5000000
+SUBMENU;Remove 10M caps;command removebankmoney -b 6 -a 10000000

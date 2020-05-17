@@ -4,6 +4,49 @@
 
 ONGROUND;Call Dynamic Mobs! (new menu);loadmenu GMTools\\mob_dynamic.txt
 ONGROUND;Call Raiders! (new menu);loadmenu GMTools\\mob_raiders.txt
+ONGROUND;Map events (new menu);loadmenu GMTools\\map_events.txt
+
+ONGROUND;Ponies's Attack! (Players only);internal menu
+SUBMENU;Infinite attacks;command ev-ponyattack $[HexX] $[HexY] players 0
+SUBMENU;1 attack;command ev-ponyattack $[HexX] $[HexY] players 1
+SUBMENU;5 attacks;command ev-ponyattack $[HexX] $[HexY] players 5
+SUBMENU;10 attacks;command ev-ponyattack $[HexX] $[HexY] players 10
+SUBMENU;15 attacks;command ev-ponyattack $[HexX] $[HexY] players 15
+SUBMENU;20 attacks;command ev-ponyattack $[HexX] $[HexY] players 20
+SUBMENU;25 attacks;command ev-ponyattack $[HexX] $[HexY] players 25
+SUBMENU;30 attacks;command ev-ponyattack $[HexX] $[HexY] players 30
+SUBMENU;35 attacks;command ev-ponyattack $[HexX] $[HexY] players 35
+SUBMENU;40 attacks;command ev-ponyattack $[HexX] $[HexY] players 40
+SUBMENU;45 attacks;command ev-ponyattack $[HexX] $[HexY] players 45
+SUBMENU;50 attacks;command ev-ponyattack $[HexX] $[HexY] players 50
+
+ONGROUND;Ponies's Attack! (NPCs only);internal menu
+SUBMENU;Infinite attacks;command ev-ponyattack $[HexX] $[HexY] npcs 0
+SUBMENU;1 attack;command ev-ponyattack $[HexX] $[HexY] npcs 1
+SUBMENU;5 attacks;command ev-ponyattack $[HexX] $[HexY] npcs 5
+SUBMENU;10 attacks;command ev-ponyattack $[HexX] $[HexY] npcs 10
+SUBMENU;15 attacks;command ev-ponyattack $[HexX] $[HexY] npcs 15
+SUBMENU;20 attacks;command ev-ponyattack $[HexX] $[HexY] npcs 20
+SUBMENU;25 attacks;command ev-ponyattack $[HexX] $[HexY] npcs 25
+SUBMENU;30 attacks;command ev-ponyattack $[HexX] $[HexY] npcs 30
+SUBMENU;35 attacks;command ev-ponyattack $[HexX] $[HexY] npcs 35
+SUBMENU;40 attacks;command ev-ponyattack $[HexX] $[HexY] npcs 40
+SUBMENU;45 attacks;command ev-ponyattack $[HexX] $[HexY] npcs 45
+SUBMENU;50 attacks;command ev-ponyattack $[HexX] $[HexY] npcs 50
+
+ONGROUND;Ponies's Attack! (Players and NPCs);internal menu
+SUBMENU;Infinite attacks;command ev-ponyattack $[HexX] $[HexY] all 0
+SUBMENU;1 attack;command ev-ponyattack $[HexX] $[HexY] all 1
+SUBMENU;5 attacks;command ev-ponyattack $[HexX] $[HexY] all 5
+SUBMENU;10 attacks;command ev-ponyattack $[HexX] $[HexY] all 10
+SUBMENU;15 attacks;command ev-ponyattack $[HexX] $[HexY] all 15
+SUBMENU;20 attacks;command ev-ponyattack $[HexX] $[HexY] all 20
+SUBMENU;25 attacks;command ev-ponyattack $[HexX] $[HexY] all 25
+SUBMENU;30 attacks;command ev-ponyattack $[HexX] $[HexY] all 30
+SUBMENU;35 attacks;command ev-ponyattack $[HexX] $[HexY] all 35
+SUBMENU;40 attacks;command ev-ponyattack $[HexX] $[HexY] all 40
+SUBMENU;45 attacks;command ev-ponyattack $[HexX] $[HexY] all 45
+SUBMENU;50 attacks;command ev-ponyattack $[HexX] $[HexY] all 50
 
 ONGROUND;GM Events - Multi Exp GLOBAL 24h;internal menu
 SUBMENU;x2;command setgmevent multiexp 1440 2
