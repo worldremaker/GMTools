@@ -10,80 +10,80 @@ ONGROUND;Disable OUT map event;command unsetmapoutevent
 ONGROUND;Remove all items on outgoing critters;command setremoveitemsonmap
 
 ONGROUND,NOHIDE;PvP on this map;internal menu
-SUBMENU;Enable;command enablepvp
-SUBMENU;Disable;command disablepvp
+SUBMENU,NOHIDE;Enable;command enablepvp
+SUBMENU,NOHIDE;Disable;command disablepvp
 
 ONGROUND,NOHIDE;Turn-Based mode on this map;internal menu
-SUBMENU;Enable;command enabletb
-SUBMENU;Disable;command disabletb
+SUBMENU,NOHIDE;Enable;command enabletb
+SUBMENU,NOHIDE;Disable;command disabletb
 
 ONGROUND,NOHIDE;Exit grids on this map;internal menu
-SUBMENU;Enable;command enablegrids
-SUBMENU;Disable;command disablegrids
+SUBMENU,NOHIDE;Enable;command enablegrids
+SUBMENU,NOHIDE;Disable;command disablegrids
 
 ONGROUND,NOHIDE;Dismantling on this map;internal menu
-SUBMENU;Enable;command enabledismantling
-SUBMENU;Disable;command disabledismantling
+SUBMENU,NOHIDE;Enable;command enabledismantling
+SUBMENU,NOHIDE;Disable;command disabledismantling
 
 ONGROUND,NOHIDE;Play Mark Morgan;internal menu
-SUBMENU;Trader's Life;command playmusic -m 01HUB.ACM
-SUBMENU;Flame of the Ancient World;command playmusic -m 02MSTRLR.ACM
-SUBMENU;Moribund World;command playmusic -m 03WRLDMP.ACM
-SUBMENU;Metallic Monks;command playmusic -m 04BRTHRH.ACM
-SUBMENU;Khans of New California;command playmusic -m 05RAIDER.ACM
-SUBMENU;Vault of the Future;command playmusic -m 06VAULT.ACM
-SUBMENU;Desert Wind;command playmusic -m 07DESERT.ACM
-SUBMENU;Vats of Goo;command playmusic -m 08VATS.ACM
-SUBMENU;Radiation Storm;command playmusic -m 09GLOW.ACM
-SUBMENU;City of Lost Angels;command playmusic -m 10LABONE.ACM
-SUBMENU;Acolytes of the New God;command playmusic -m 11CHILRN.ACM
-SUBMENU;Industrial Junk;command playmusic -m 12JUNKTN.ACM
-SUBMENU;Underground Troubles;command playmusic -m 13CARVRN.ACM
-SUBMENU;City of the Dead;command playmusic -m 14NECRO.ACM
-SUBMENU;Second Chance;command playmusic -m 15SHADY.ACM
-SUBMENU;Follower's Credo;command playmusic -m 16FOLLOW.ACM
-SUBMENU;Beyond the Canyon;command playmusic -m 17ARROYO.ACM
-SUBMENU;Dream Town;command playmusic -m 18MODOC.ACM
-SUBMENU;Biggest Little City in the World;command playmusic -m 19RENO.ACM
-SUBMENU;My Chrysalis Highwayman;command playmusic -m 20CAR.ACM
-SUBMENU;Many Contrasts;command playmusic -m 21SF.ACM
-SUBMENU;All-Clear Signal;command playmusic -m 22VCITY.ACM
-SUBMENU;California Revisited;command playmusic -m 23WORLD.ACM
-SUBMENU;Gold Slouch;command playmusic -m 24REDD.ACM
+SUBMENU,NOHIDE;Trader's Life;command playmusic -m 01HUB.ACM
+SUBMENU,NOHIDE;Flame of the Ancient World;command playmusic -m 02MSTRLR.ACM
+SUBMENU,NOHIDE;Moribund World;command playmusic -m 03WRLDMP.ACM
+SUBMENU,NOHIDE;Metallic Monks;command playmusic -m 04BRTHRH.ACM
+SUBMENU,NOHIDE;Khans of New California;command playmusic -m 05RAIDER.ACM
+SUBMENU,NOHIDE;Vault of the Future;command playmusic -m 06VAULT.ACM
+SUBMENU,NOHIDE;Desert Wind;command playmusic -m 07DESERT.ACM
+SUBMENU,NOHIDE;Vats of Goo;command playmusic -m 08VATS.ACM
+SUBMENU,NOHIDE;Radiation Storm;command playmusic -m 09GLOW.ACM
+SUBMENU,NOHIDE;City of Lost Angels;command playmusic -m 10LABONE.ACM
+SUBMENU,NOHIDE;Acolytes of the New God;command playmusic -m 11CHILRN.ACM
+SUBMENU,NOHIDE;Industrial Junk;command playmusic -m 12JUNKTN.ACM
+SUBMENU,NOHIDE;Underground Troubles;command playmusic -m 13CARVRN.ACM
+SUBMENU,NOHIDE;City of the Dead;command playmusic -m 14NECRO.ACM
+SUBMENU,NOHIDE;Second Chance;command playmusic -m 15SHADY.ACM
+SUBMENU,NOHIDE;Follower's Credo;command playmusic -m 16FOLLOW.ACM
+SUBMENU,NOHIDE;Beyond the Canyon;command playmusic -m 17ARROYO.ACM
+SUBMENU,NOHIDE;Dream Town;command playmusic -m 18MODOC.ACM
+SUBMENU,NOHIDE;Biggest Little City in the World;command playmusic -m 19RENO.ACM
+SUBMENU,NOHIDE;My Chrysalis Highwayman;command playmusic -m 20CAR.ACM
+SUBMENU,NOHIDE;Many Contrasts;command playmusic -m 21SF.ACM
+SUBMENU,NOHIDE;All-Clear Signal;command playmusic -m 22VCITY.ACM
+SUBMENU,NOHIDE;California Revisited;command playmusic -m 23WORLD.ACM
+SUBMENU,NOHIDE;Gold Slouch;command playmusic -m 24REDD.ACM
 
 ONGROUND,NOHIDE;Unknown artists;internal menu
-SUBMENU;25sewer;command playmusic -m 25sewer.acm
-SUBMENU;26unreal;command playmusic -m 26unreal.acm
-SUBMENU;28enigma;command playmusic -m 28enigma.acm
-SUBMENU;29cave;command playmusic -m 29cave.acm
-SUBMENU;30desert;command playmusic -m 30desert.acm
-SUBMENU;31desert;command playmusic -m 31desert.acm
-SUBMENU;32abbey1;command playmusic -m 32abbey1.acm
-SUBMENU;33prmtribe;command playmusic -m 33prmtribe.acm
-SUBMENU;34desert2;command playmusic -m 34desert2.acm
-SUBMENU;35desert3;command playmusic -m 35desert3.acm
-SUBMENU;36rocks1;command playmusic -m 36rocks1.acm
-SUBMENU;37olpower;command playmusic -m 37olpower.acm
-SUBMENU;38scient2;command playmusic -m 38scient2.acm
-SUBMENU;39world;command playmusic -m 39world.acm
-SUBMENU;junkyard;command playmusic -m junkyard.ogg
-SUBMENU;waterworks;command playmusic -m waterworks.ogg
+SUBMENU,NOHIDE;25sewer;command playmusic -m 25sewer.acm
+SUBMENU,NOHIDE;26unreal;command playmusic -m 26unreal.acm
+SUBMENU,NOHIDE;28enigma;command playmusic -m 28enigma.acm
+SUBMENU,NOHIDE;29cave;command playmusic -m 29cave.acm
+SUBMENU,NOHIDE;30desert;command playmusic -m 30desert.acm
+SUBMENU,NOHIDE;31desert;command playmusic -m 31desert.acm
+SUBMENU,NOHIDE;32abbey1;command playmusic -m 32abbey1.acm
+SUBMENU,NOHIDE;33prmtribe;command playmusic -m 33prmtribe.acm
+SUBMENU,NOHIDE;34desert2;command playmusic -m 34desert2.acm
+SUBMENU,NOHIDE;35desert3;command playmusic -m 35desert3.acm
+SUBMENU,NOHIDE;36rocks1;command playmusic -m 36rocks1.acm
+SUBMENU,NOHIDE;37olpower;command playmusic -m 37olpower.acm
+SUBMENU,NOHIDE;38scient2;command playmusic -m 38scient2.acm
+SUBMENU,NOHIDE;39world;command playmusic -m 39world.acm
+SUBMENU,NOHIDE;junkyard;command playmusic -m junkyard.ogg
+SUBMENU,NOHIDE;waterworks;command playmusic -m waterworks.ogg
 
 ONGROUND,NOHIDE;Play Nobody's Nail Machine;internal menu
-SUBMENU;New Vegas;command playmusic -m 40Vegas.acm
-SUBMENU;Village;command playmusic -m 41Shaien.acm
-SUBMENU;Win of War;command playmusic -m 42Wind.acm
-SUBMENU;Fallout Nevada Theme;command playmusic -m 43desert.acm
-SUBMENU;Radiationless;command playmusic -m 44Radar.acm
-SUBMENU;Improper Subdivision;command playmusic -m 45Impr.acm
-SUBMENU;Root Information;command playmusic -m 46Zona.acm
-SUBMENU;High Wind;command playmusic -m 47VaultX.acm
-SUBMENU;Ghost Town;command playmusic -m 48VaultX-oldver.acm
-SUBMENU;Line of Policy;command playmusic -m 49Street.acm
-SUBMENU;World;command playmusic -m 50world.acm
+SUBMENU,NOHIDE;New Vegas;command playmusic -m 40Vegas.acm
+SUBMENU,NOHIDE;Village;command playmusic -m 41Shaien.acm
+SUBMENU,NOHIDE;Win of War;command playmusic -m 42Wind.acm
+SUBMENU,NOHIDE;Fallout Nevada Theme;command playmusic -m 43desert.acm
+SUBMENU,NOHIDE;Radiationless;command playmusic -m 44Radar.acm
+SUBMENU,NOHIDE;Improper Subdivision;command playmusic -m 45Impr.acm
+SUBMENU,NOHIDE;Root Information;command playmusic -m 46Zona.acm
+SUBMENU,NOHIDE;High Wind;command playmusic -m 47VaultX.acm
+SUBMENU,NOHIDE;Ghost Town;command playmusic -m 48VaultX-oldver.acm
+SUBMENU,NOHIDE;Line of Policy;command playmusic -m 49Street.acm
+SUBMENU,NOHIDE;World;command playmusic -m 50world.acm
 
 ONGROUND,NOHIDE;Play Aftertimes OST;internal menu
-SUBMENU;Turbo Elephant;command playmusic -m ares.ogg
-SUBMENU;Army of The Fallen;command playmusic -m hawthorne.ogg
-SUBMENU;Road to Nowhere;command playmusic -m aftertimes.ogg
-SUBMENU;Radiated Hell;command playmusic -m talchem.ogg
+SUBMENU,NOHIDE;Turbo Elephant;command playmusic -m ares.ogg
+SUBMENU,NOHIDE;Army of The Fallen;command playmusic -m hawthorne.ogg
+SUBMENU,NOHIDE;Road to Nowhere;command playmusic -m aftertimes.ogg
+SUBMENU,NOHIDE;Radiated Hell;command playmusic -m talchem.ogg
