@@ -77,6 +77,11 @@ SUBMENU,NOHIDE;Cigs;command give 541 1 -p $[Critter.Id] -legit
 SUBMENU,NOHIDE;Jet;command give 259 1 -p $[Critter.Id] -legit
 SUBMENU,NOHIDE;Nuka Cola;command give 106 1 -p $[Critter.Id] -legit
 SUBMENU,NOHIDE;Zippo Lighter;command give 101 1 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;Mentats;command give 53 1 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;Antidote x10;command give 49 10 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;RadAway x2;command give 48 2 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;RadX x2;command give 109 2 -p $[Critter.Id] -legit
+SUBMENU,NOHIDE;Jet Antidote;command give 260 1 -p $[Critter.Id] -legit
 
 ONCHOSEN,ONPLAYER,ONNPC,NOHIDE;Armors;internal menu
 

@@ -16,5 +16,18 @@ SUBMENU;NCR Soldier FEMALE Pancor NW;command addnpc 519 -x $[hexX] -y $[HexY] -d
 ONCHOSEN,ONPLAYER,NOHIDE;Companions;internal menu
 SUBMENU;Pony lev 30;command addfollower $[Critter.Id] -d 9320 -r 600 -skin 158 -dist 2 -type 1 -name Ponyville Dweller
 
+ONGROUND;Clear Enemy Stacks; command clearenemystacks
+ONPLAYER,ONNPC;Possess;internal possess
+ONPLAYER,ONNPC;Trade;runscript_unsafe dev_menu@unsafe_Trade $[Critter.Id] 0 0
+ONPLAYER,ONNPC,ISALIVE;Kill;runscript_unsafe dev_menu@unsafe_KillCritter $[Critter.Id] 0 0
+ONPLAYER,ONNPC,ISKNOCK;Kill;runscript_unsafe dev_menu@unsafe_KillCritter $[Critter.Id] 0 0
+ONCHOSEN,ONPLAYER,ONNPC,ISDEAD;Revive;runscript_unsafe dev_menu@unsafe_KillCritter $[Critter.Id] 0 0
+ONITEM,ISPOSSESS;Pick item;runscript_unsafe dev_menu@unsafe_PickItem $[Possessed.Id] $[Item.Id] 0
+ONPLAYER,ONNPC,ISPOSSESS;Attack;runscript_unsafe dev_menu@unsafe_Attack $[Possessed.Id] $[Critter.Id] 0
+ONGROUND,ISPOSSESS;Move to;runscript_unsafe dev_menu@unsafe_MoveTo $[Possessed.Id] $[HexX] $[HexY]
+ISPOSSESS;Stop;runscript_unsafe dev_menu@unsafe_Stop $[Possessed.Id] 0 0
+ONCHOSEN,ONPLAYER,ONNPC,ISKNOCK;Wake;runscript_unsafe dev_menu@unsafe_NeutralizeCritter $[Critter.Id] 0 0
+ONCHOSEN,ONPLAYER,ONNPC,ISNTKNOCK;Neutralize;runscript_unsafe dev_menu@unsafe_NeutralizeCritter $[Critter.Id] 0 0
+
 ONNPC;Remove critter;runscript_unsafe dev_menu@unsafe_RemoveCritter $[Critter.Id] 0 0
 
