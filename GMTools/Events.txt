@@ -48,6 +48,31 @@ SUBMENU;40 attacks;command ev-ponyattack $[HexX] $[HexY] all 40
 SUBMENU;45 attacks;command ev-ponyattack $[HexX] $[HexY] all 45
 SUBMENU;50 attacks;command ev-ponyattack $[HexX] $[HexY] all 50
 
+ONGROUND,NOHIDE;Aura (Players only);internal menu
+SUBMENU,NOHIDE;Disable;command aura -off
+SUBMENU,NOHIDE;Knockback;command aura -on -knockbackplayer
+SUBMENU,NOHIDE;Kill;command aura -on -killplayer
+SUBMENU,NOHIDE;Random skin;command aura -on -randomskin
+SUBMENU,NOHIDE;Random skin (no armors);command aura -on -randomskinsafe
+SUBMENU,NOHIDE;Reset skin;command aura -on -resetskin
+
+ONGROUND,NOHIDE;Aura (NPCs only);internal menu
+SUBMENU,NOHIDE;Disable;command aura -off
+SUBMENU,NOHIDE;Knockback;command aura -on -knockbacknpc
+SUBMENU,NOHIDE;Kill;command aura -on -killnpc
+
+ONGROUND,NOHIDE;Aura (Players and NPCs);internal menu
+SUBMENU,NOHIDE;Disable;command aura -off
+SUBMENU,NOHIDE;Knockback;command aura -on -knockback
+SUBMENU,NOHIDE;Kill;command aura -on -kill
+SUBMENU,NOHIDE;Snow Queen;command aura -on -snowqueen
+SUBMENU,NOHIDE;Gravitation Well;command aura -on -gravitationwell
+
+ONGROUND,NOHIDE;Aura (Map);internal menu
+SUBMENU,NOHIDE;Disable;command aura -off
+SUBMENU,NOHIDE;Golgotha stakes;command aura -on -golgotha
+SUBMENU,NOHIDE;Forest trees;command aura -on -forest
+
 ONGROUND;GM Events - Multi Exp GLOBAL 24h;internal menu
 SUBMENU;x2;command setgmevent multiexp 1440 2
 SUBMENU;x3;command setgmevent multiexp 1440 3
