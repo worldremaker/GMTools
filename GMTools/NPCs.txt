@@ -6,8 +6,14 @@ ONGROUND;Spawn NPC;internal menu
 SUBMENU;Altruist;command addnpc 475 -d 10802 -x $[HexX] -y $[HexY] -dir 0 -b 218 -l 50
 SUBMENU;Dr Fung;command addnpc 297 -d 1405 -x $[HexX] -y $[HexY] -dir 3
 SUBMENU;Marshal;command addnpc 369 -d 9438 -x $[HexX] -y $[HexY] -dir 3 -l 50
-SUBMENU;Anticheat Police;command addnpc 903 -d 58 -x $[HexX] -y $[HexY] -dir 3
-SUBMENU;Anticheat Police Debug;runscript anti_exploit@SpawnPoliceManDebug 0 0 0
+
+ONGROUND;Spawn Anticheat Police;internal menu
+SUBMENU;Normal spawn;command addnpc 903 -d 58 -x $[HexX] -y $[HexY] -dir 3
+SUBMENU;Debug normal 1 NPC;runscript anti_exploit@SpawnPoliceManDebug 0 1 0
+SUBMENU;Debug normal 5 NPCs;runscript anti_exploit@SpawnPoliceManDebug 0 5 0
+SUBMENU;Debug multilog 1 player;runscript anti_exploit@SpawnPoliceManDebug 1 1 0
+SUBMENU;Debug multilog 2 players;runscript anti_exploit@SpawnPoliceManDebug 1 2 0
+SUBMENU;Debug multilog 3 players;runscript anti_exploit@SpawnPoliceManDebug 1 3 0
 
 ONGROUND,NOHIDE;Lady M event AddNPCs;internal menu
 SUBMENU;NCR Ranger MALE Pancor NW;command addnpc 475 -x $[HexX] -y $[HexY] -dir 5 -b 218 -l 50
