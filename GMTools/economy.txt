@@ -2,6 +2,8 @@
 ;;Standard devmenu
 ;;
 
+ONITEM,NOHIDE;Fill locker;runscript event_flc_robbery@FillFLCLocker $[Item.Id] 0 0
+
 ONGROUND,NOHIDE;Check virtual sum;command virtualmoney
 
 ONGROUND,NOHIDE;Check bank in;internal menu
