@@ -1,11 +1,11 @@
 # GMTools
 
 ### Important!
-It's not compatible with Aftertimes S2 SDK, from 3rd reviosion it's preparing for Aftertimes S3.
+It's not compatible with FOnline: Aftertimes S2 SDK, from 3rd revision it's preparing for FOnline: Aftertimes S3.
 
-Buttons for Aftertimes's GMs.
+Buttons for FOnline: Aftertimes's GMs.
 
-Add this to `GMTools` directory in Aftertimes client's dir...
+Add this to `GMTools` directory in FOnline: Aftertimes client's dir...
 
 Use it with following lines in FOnlineAT.cfg file
 ```
