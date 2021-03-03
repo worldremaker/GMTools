@@ -24,7 +24,7 @@ SUBMENU;NCR Soldier FEMALE Pancor NW;command addnpc 519 -x $[hexX] -y $[HexY] -d
 ONCHOSEN,ONPLAYER,NOHIDE;Companions;internal menu
 SUBMENU;Pony lev 30;command addfollower $[Critter.Id] -d 9320 -r 600 -skin 158 -dist 2 -type 1 -name Ponyville Dweller
 
-ONGROUND;Clear Enemy Stacks; command clearenemystacks
+ONGROUND;Clear Enemy Stacks;command clearenemystacks
 ONPLAYER,ONNPC;Possess;internal possess
 ONPLAYER,ONNPC;Trade;runscript_unsafe dev_menu@unsafe_Trade $[Critter.Id] 0 0
 ONPLAYER,ONNPC,ISALIVE;Kill;runscript_unsafe dev_menu@unsafe_KillCritter $[Critter.Id] 0 0

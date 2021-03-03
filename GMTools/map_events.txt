@@ -25,7 +25,7 @@ ONGROUND,NOHIDE;Dismantling on this map;internal menu
 SUBMENU,NOHIDE;Enable;command enabledismantling
 SUBMENU,NOHIDE;Disable;command disabledismantling
 
-ONGROUND,NOHIDE;Play Mark Morgan;internal menu
+ONGROUND,NOHIDE;Play Mark Morgan 1/2;internal menu
 SUBMENU,NOHIDE;Trader's Life;command playmusic -m 01HUB.ACM
 SUBMENU,NOHIDE;Flame of the Ancient World;command playmusic -m 02MSTRLR.ACM
 SUBMENU,NOHIDE;Moribund World;command playmusic -m 03WRLDMP.ACM
@@ -38,6 +38,8 @@ SUBMENU,NOHIDE;Radiation Storm;command playmusic -m 09GLOW.ACM
 SUBMENU,NOHIDE;City of Lost Angels;command playmusic -m 10LABONE.ACM
 SUBMENU,NOHIDE;Acolytes of the New God;command playmusic -m 11CHILRN.ACM
 SUBMENU,NOHIDE;Industrial Junk;command playmusic -m 12JUNKTN.ACM
+
+ONGROUND,NOHIDE;Play Mark Morgan 2/2;internal menu
 SUBMENU,NOHIDE;Underground Troubles;command playmusic -m 13CARVRN.ACM
 SUBMENU,NOHIDE;City of the Dead;command playmusic -m 14NECRO.ACM
 SUBMENU,NOHIDE;Second Chance;command playmusic -m 15SHADY.ACM

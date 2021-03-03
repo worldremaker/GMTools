@@ -24,4 +24,4 @@ ONPLAYER;Be Friendly;internal menu
 SUBMENU;Hug;command slap -p $[Player.Id]
 SUBMENU;Gift;command airstrike -p $[Player.Id]
 
-ONGROUND;Clear Enemy Stacks; command clearenemystacks
+ONGROUND;Clear Enemy Stacks;command clearenemystacks
